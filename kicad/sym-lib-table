@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name automato-rescue)(type Legacy)(uri ${KIPRJMOD}/automato-rescue.lib)(options "")(descr ""))
+)
