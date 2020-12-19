@@ -1491,4 +1491,49 @@ Wire Wire Line
 Connection ~ 9900 6800
 Wire Wire Line
 	9900 6800 10200 6800
+$Comp
+L Sensor_Humidity:SHTC3 U5
+U 1 1 5FDF2FC3
+P 11450 8550
+F 0 "U5" H 11694 8596 50  0000 L CNN
+F 1 "SHTC3" H 11694 8505 50  0000 L CNN
+F 2 "Sensor_Humidity:Sensirion_DFN-4-1EP_2x2mm_P1mm_EP0.7x1.6mm" H 11650 8200 50  0001 C CNN
+F 3 "https://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/0_Datasheets/Humidity/Sensirion_Humidity_Sensors_SHTC3_Datasheet.pdf" H 11150 9000 50  0001 C CNN
+	1    11450 8550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR037
+U 1 1 5FDF4232
+P 11550 8950
+F 0 "#PWR037" H 11550 8700 50  0001 C CNN
+F 1 "GND" H 11555 8777 50  0000 C CNN
+F 2 "" H 11550 8950 50  0001 C CNN
+F 3 "" H 11550 8950 50  0001 C CNN
+	1    11550 8950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11550 8850 11550 8950
+$Comp
+L power:+3.3V #PWR036
+U 1 1 5FE01F30
+P 11550 8150
+F 0 "#PWR036" H 11550 8000 50  0001 C CNN
+F 1 "+3.3V" H 11565 8323 50  0000 C CNN
+F 2 "" H 11550 8150 50  0001 C CNN
+F 3 "" H 11550 8150 50  0001 C CNN
+	1    11550 8150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11550 8150 11550 8250
+Text GLabel 11050 8650 0    50   Input ~ 0
+I2C_SDA
+Wire Wire Line
+	11050 8650 11150 8650
+Text GLabel 11050 8450 0    50   Input ~ 0
+I2C_SCL
+Wire Wire Line
+	11050 8450 11150 8450
 $EndSCHEMATC

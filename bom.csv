@@ -18,3 +18,4 @@ Quantity,Manufacturer,Manufacturer Part Number ,Digikey Part Number,Description,
 1,Panasonic Electronic Components,ERA-6AED680V,P123869CT-ND,Resistor: 68,R12
 2,C&K,PTS645SK50SMTR92 LFS,CKN9087CT-ND,Tactile Switch,"SW1, SW2"
 2,ON Semiconductor,MMBT2222ALT1G,MMBT2222ALT1GOSCT-ND,Transistor: NPN BJT,"Q1, Q2"
+1,Sensirion AG,SHTC3,1649-1100-1-ND,Temp/Humidity Sensor,U5
