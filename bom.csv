@@ -2,7 +2,7 @@ Quantity,Manufacturer,Manufacturer Part Number ,Digikey Part Number,Description,
 5,Yageo,CC0805JRX7R7BB104,311-4266-1-ND,0.1 uF Capacitor,"C1, C6, C7, C8, C10"
 1,Samsung Electro-Mechanics,CL21B105KAFNFNE,1276-2926-1-ND,1 uF Capacitor,C3
 1,Samsung Electro-Mechanics,CL21A475KPFNNNG,1276-6464-1-ND,4.7 uF Capacitor,C2
-3,Samsung Electro-Mechanics,CL21A106MQFNNNE,1276-1298-1-ND,10 uF Capacitor,"C4, C5, C9"
+3,Samsung Electro-Mechanics,CL21A106MQFNNNE,1276-1298-1-ND,10 uF Capacitor,"C4, C5, C9, C11"
 1,ON Semiconductor,MBR120ESFT3G,MBR120ESFT3GOSCT-ND,Schottky Diode,D1
 1,Amphenol ICC,12401610E4#2A,12401610E4#2ACT-ND,USB-C Receptacle,J2
 1,RF Solutions,RFM95W-868S2,RFM95W-868S2-ND,LoRa Transceiver Module,U3
@@ -11,11 +11,12 @@ Quantity,Manufacturer,Manufacturer Part Number ,Digikey Part Number,Description,
 1,Espressif Systems,ESP32-WROOM-32D (4MB),1965-ESP32-WROOM-32D(4MB)CT-ND,ESP32,U4
 1,Yageo,RC0805FR-0722K1L,311-22.1KCRCT-ND,Resistor: 22.1k,R1
 1,Panasonic Electronic Components,ERA-6AED473V,P123852CT-ND,Resistor: 47k,R2
-1,Panasonic Electronic Components,ERA-6AED102V,P123793CT-ND,Resistor: 1k,R3
+1,Panasonic Electronic Components,ERA-6AED102V,P123793CT-ND,Resistor: 1k,"R3, R15"
 3,Panasonic Electronic Components,ERA-6AED103V,P123794CT-ND,Resistor: 10k,"R4, R5, R7"
 3,Panasonic Electronic Components,ERA-6AED104V,P123795CT-ND,Resistor: 100k,"R6, R10, R11"
-2,Panasonic Electronic Components,ERA-6AED512V,P123856CT-ND,Resistor: 5.1k,"R8, R9"
+2,Panasonic Electronic Components,ERA-6AED512V,P123856CT-ND,Resistor: 5.1k,"R8, R9, R14"
 1,Panasonic Electronic Components,ERA-6AED680V,P123869CT-ND,Resistor: 68,R12
 2,C&K,PTS645SK50SMTR92 LFS,CKN9087CT-ND,Tactile Switch,"SW1, SW2"
 2,ON Semiconductor,MMBT2222ALT1G,MMBT2222ALT1GOSCT-ND,Transistor: NPN BJT,"Q1, Q2"
 1,Sensirion AG,SHTC3,1649-1100-1-ND,Temp/Humidity Sensor,U5
+1,Microchip Technology,MCP73831T-2ACI/OT,MCP73831T-2ACI/OTCT-ND,Charge Controller,U6
