@@ -1,4 +1,4 @@
-update=Fri 11 Dec 2020 05:42:58 PM CST
+update=Fri 25 Dec 2020 10:56:05 PM CST
 version=1
 last_client=eeschema
 [general]
@@ -34,7 +34,7 @@ LibDir=
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=./
+PlotDirectoryName=../../
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=Pcbnew
