@@ -1,4 +1,4 @@
-18507592933255379
+18509202125961379
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -80892,12 +80892,19 @@ varistor SIOV
 2
 2
 automato-sensor
+ILI9341_2.8in
+
+
+0
+18
+18
+automato-sensor
 L102021ML04Q
 
 
 0
-0
-0
+3
+3
 automato-sensor
 TerminalBlock_Phoenix_PT-1,5-20-3.5-H_1x20_P3.50mm_Horizontal
 Terminal Block Phoenix PT-1,5-16-3.5-H, 16 pins, pitch 3.5mm, size 56x7.6mm^2, drill diamater 1.2mm, pad diameter 2.4mm, see , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_Phoenix

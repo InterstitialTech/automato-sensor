@@ -4,10 +4,10 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
-Title ""
+Title "Automato Sensor Board"
 Date ""
 Rev ""
-Comp ""
+Comp "Interstitial Technology"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -635,27 +635,27 @@ F 3 "~" H 8400 6800 50  0001 C CNN
 	1    8400 6800
 	1    0    0    -1  
 $EndComp
-Text GLabel 4550 10300 1    50   Input ~ 0
+Text GLabel 8350 10000 1    50   Input ~ 0
 A6
-Text GLabel 4650 10300 1    50   Input ~ 0
+Text GLabel 8450 10000 1    50   Input ~ 0
 A7
-Text GLabel 4250 10300 1    50   Input ~ 0
+Text GLabel 8050 10000 1    50   Input ~ 0
 IO33
-Text GLabel 3950 10300 1    50   Input ~ 0
+Text GLabel 7750 10000 1    50   Input ~ 0
 IO26
-Text GLabel 4050 10300 1    50   Input ~ 0
+Text GLabel 7850 10000 1    50   Input ~ 0
 IO27
-Text GLabel 4150 10300 1    50   Input ~ 0
+Text GLabel 7950 10000 1    50   Input ~ 0
 IO32
-Text GLabel 5150 10300 1    50   Input ~ 0
+Text GLabel 8950 10000 1    50   Input ~ 0
 I2C_SCL
-Text GLabel 5050 10300 1    50   Input ~ 0
+Text GLabel 8850 10000 1    50   Input ~ 0
 I2C_SDA
-Text GLabel 4950 10300 1    50   Input ~ 0
+Text GLabel 8750 10000 1    50   Input ~ 0
 TX
 Text GLabel 10500 5600 2    50   Input ~ 0
 RX
-Text GLabel 4850 10300 1    50   Input ~ 0
+Text GLabel 8650 10000 1    50   Input ~ 0
 RX
 $Comp
 L power:GND #PWR07
@@ -696,120 +696,36 @@ F 3 "" H 11850 2550 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	11850 2550 11850 2650
-Text GLabel 3050 8050 2    50   Input ~ 0
+Text GLabel 6550 8100 2    50   Input ~ 0
 DATA_CMD
-Wire Wire Line
-	2950 8950 3050 8950
-Text GLabel 3050 8950 2    50   Input ~ 0
+Text GLabel 6550 7200 2    50   Input ~ 0
 IRQ_TCH
-Wire Wire Line
-	2950 8850 3050 8850
-Wire Wire Line
-	2950 8750 3050 8750
-Wire Wire Line
-	2950 8650 3050 8650
-Wire Wire Line
-	2950 8550 3050 8550
-Wire Wire Line
-	5200 8950 5300 8950
-Wire Wire Line
-	5200 8850 5300 8850
-Wire Wire Line
-	5200 8750 5300 8750
-Text GLabel 5300 8950 2    50   Input ~ 0
-SPI_CLK
-Text GLabel 5300 8850 2    50   Input ~ 0
+Text GLabel 5350 7800 0    50   Input ~ 0
 SPI_MISO
-Text GLabel 5300 8750 2    50   Input ~ 0
+Text GLabel 5350 7900 0    50   Input ~ 0
 SPI_MOSI
-Wire Wire Line
-	5200 8650 5300 8650
-Text GLabel 5300 8650 2    50   Input ~ 0
+Text GLabel 5350 8000 0    50   Input ~ 0
 CS_SD
-$Comp
-L Connector:Conn_01x04_Female J3
-U 1 1 60420795
-P 5000 8750
-F 0 "J3" H 4850 8200 50  0000 L CNN
-F 1 "Conn_01x04_Female" H 4500 8350 50  0000 L CNN
-F 2 "" H 5000 8750 50  0001 C CNN
-F 3 "~" H 5000 8750 50  0001 C CNN
-	1    5000 8750
-	-1   0    0    -1  
-$EndComp
-Text GLabel 3050 8850 2    50   Input ~ 0
+Text GLabel 6550 7300 2    50   Input ~ 0
 SPI_MISO
-Text GLabel 3050 8750 2    50   Input ~ 0
+Text GLabel 6550 7400 2    50   Input ~ 0
 SPI_MOSI
-Text GLabel 3050 8650 2    50   Input ~ 0
+Text GLabel 6550 7500 2    50   Input ~ 0
 CS_TCH
-Text GLabel 3050 8550 2    50   Input ~ 0
+Text GLabel 6550 7600 2    50   Input ~ 0
 SPI_CLK
-Wire Wire Line
-	2950 8450 3050 8450
-Wire Wire Line
-	2950 8350 3050 8350
-Wire Wire Line
-	2950 8250 3050 8250
-Wire Wire Line
-	2950 8150 3050 8150
-Wire Wire Line
-	2950 8050 3050 8050
-Wire Wire Line
-	2950 7950 3050 7950
-Text GLabel 3050 8450 2    50   Input ~ 0
+Text GLabel 6550 7700 2    50   Input ~ 0
 SPI_MISO
-Text GLabel 3050 8350 2    50   Input ~ 0
+Text GLabel 6550 7800 2    50   Input ~ 0
 LED_LCD
-Text GLabel 3050 8250 2    50   Input ~ 0
+Text GLabel 6550 7900 2    50   Input ~ 0
 SPI_CLK
-Text GLabel 3050 8150 2    50   Input ~ 0
+Text GLabel 6550 8000 2    50   Input ~ 0
 SPI_MOSI
-Text GLabel 3050 7950 2    50   Input ~ 0
+Text GLabel 6550 8200 2    50   Input ~ 0
 RST_LCD
-Wire Wire Line
-	2950 7850 3050 7850
-Text GLabel 3050 7850 2    50   Input ~ 0
+Text GLabel 6550 8300 2    50   Input ~ 0
 CS_LCD
-Wire Wire Line
-	2950 7750 3700 7750
-Wire Wire Line
-	3050 7650 3050 7550
-Wire Wire Line
-	2950 7650 3050 7650
-$Comp
-L power:GND #PWR06
-U 1 1 60363284
-P 3700 7750
-F 0 "#PWR06" H 3700 7500 50  0001 C CNN
-F 1 "GND" H 3705 7577 50  0000 C CNN
-F 2 "" H 3700 7750 50  0001 C CNN
-F 3 "" H 3700 7750 50  0001 C CNN
-	1    3700 7750
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3.3V #PWR03
-U 1 1 60360CCF
-P 3050 7550
-F 0 "#PWR03" H 3050 7400 50  0001 C CNN
-F 1 "+3.3V" H 3065 7723 50  0000 C CNN
-F 2 "" H 3050 7550 50  0001 C CNN
-F 3 "" H 3050 7550 50  0001 C CNN
-	1    3050 7550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x14_Female J1
-U 1 1 60331E77
-P 2750 8250
-F 0 "J1" H 2600 7200 50  0000 C CNN
-F 1 "Conn_01x14_Female" H 2600 7350 50  0000 C CNN
-F 2 "" H 2750 8250 50  0001 C CNN
-F 3 "~" H 2750 8250 50  0001 C CNN
-	1    2750 8250
-	-1   0    0    -1  
-$EndComp
 Connection ~ 11450 5300
 Text GLabel 13250 8200 0    50   Input ~ 0
 RST_LORA
@@ -976,16 +892,6 @@ F 3 "https://www.hoperf.com/data/upload/portal/20181127/5bfcbea20e9ef.pdf" H 113
 	1    14600 8000
 	1    0    0    -1  
 $EndComp
-Wire Notes Line
-	2350 9500 5950 9500
-Wire Notes Line
-	5950 9500 5950 7150
-Wire Notes Line
-	5950 7150 2350 7150
-Wire Notes Line
-	2350 7150 2350 9500
-Text Notes 5600 7300 0    50   ~ 0
-ILI9341
 $Comp
 L power:GND #PWR032
 U 1 1 5FD30BBA
@@ -1762,80 +1668,92 @@ Wire Wire Line
 	9100 5500 9200 5500
 Wire Wire Line
 	9100 5600 9200 5600
-Text GLabel 4350 10300 1    50   Input ~ 0
+Text GLabel 8150 10000 1    50   Input ~ 0
 A0
-Text GLabel 4450 10300 1    50   Input ~ 0
+Text GLabel 8250 10000 1    50   Input ~ 0
 A1
-$Comp
-L power:GND #PWR023
-U 1 1 5FEE4E59
-P 3250 10300
-F 0 "#PWR023" H 3250 10050 50  0001 C CNN
-F 1 "GND" V 3250 10050 50  0000 C CNN
-F 2 "" H 3250 10300 50  0001 C CNN
-F 3 "" H 3250 10300 50  0001 C CNN
-	1    3250 10300
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:+3.3V #PWR029
-U 1 1 5FEE53EF
-P 3650 10300
-F 0 "#PWR029" H 3650 10150 50  0001 C CNN
-F 1 "+3.3V" V 3650 10550 50  0000 C CNN
-F 2 "" H 3650 10300 50  0001 C CNN
-F 3 "" H 3650 10300 50  0001 C CNN
-	1    3650 10300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR045
-U 1 1 5FEE6548
-P 4750 10300
-F 0 "#PWR045" H 4750 10050 50  0001 C CNN
-F 1 "GND" V 4750 10050 50  0000 C CNN
-F 2 "" H 4750 10300 50  0001 C CNN
-F 3 "" H 4750 10300 50  0001 C CNN
-	1    4750 10300
-	-1   0    0    1   
-$EndComp
-Text GLabel 3850 10300 1    50   Input ~ 0
+Text GLabel 7650 10000 1    50   Input ~ 0
 VBUS
-Text GLabel 3350 10300 1    50   Input ~ 0
+Text GLabel 7150 10000 1    50   Input ~ 0
 VIN
-Text GLabel 3450 10300 1    50   Input ~ 0
+Text GLabel 7250 10000 1    50   Input ~ 0
 VBAT
-$Comp
-L power:GND #PWR028
-U 1 1 5FF808A0
-P 3550 10300
-F 0 "#PWR028" H 3550 10050 50  0001 C CNN
-F 1 "GND" V 3550 10050 50  0000 C CNN
-F 2 "" H 3550 10300 50  0001 C CNN
-F 3 "" H 3550 10300 50  0001 C CNN
-	1    3550 10300
-	-1   0    0    1   
-$EndComp
 $Comp
 L Connector:Screw_Terminal_01x20 J5
 U 1 1 60071AD4
-P 4250 10500
-F 0 "J5" V 4375 10446 50  0000 C CNN
-F 1 "Screw_Terminal_01x20" V 4466 10446 50  0000 C CNN
-F 2 "automato-sensor:TerminalBlock_Phoenix_PT-1,5-20-3.5-H_1x20_P3.50mm_Horizontal" H 4250 10500 50  0001 C CNN
-F 3 "~" H 4250 10500 50  0001 C CNN
-	1    4250 10500
+P 8050 10200
+F 0 "J5" V 8175 10146 50  0000 C CNN
+F 1 "Screw_Terminal_01x20" V 8266 10146 50  0000 C CNN
+F 2 "automato-sensor:TerminalBlock_Phoenix_PT-1,5-20-3.5-H_1x20_P3.50mm_Horizontal" H 8050 10200 50  0001 C CNN
+F 3 "~" H 8050 10200 50  0001 C CNN
+	1    8050 10200
 	0    1    1    0   
 $EndComp
+Text GLabel 5350 7700 0    50   Input ~ 0
+SPI_CLK
 $Comp
-L power:+3.3V #PWR044
-U 1 1 600C7C50
-P 3750 10300
-F 0 "#PWR044" H 3750 10150 50  0001 C CNN
-F 1 "+3.3V" V 3750 10550 50  0000 C CNN
-F 2 "" H 3750 10300 50  0001 C CNN
-F 3 "" H 3750 10300 50  0001 C CNN
-	1    3750 10300
+L automato-sensor:ILI9341_2.8in LCD1
+U 1 1 5FEE5431
+P 5950 7850
+F 0 "LCD1" H 5950 8765 50  0000 C CNN
+F 1 "ILI9341_2.8in" H 5950 8674 50  0000 C CNN
+F 2 "automato-sensor:ILI9341_2.8in" H 5950 7850 50  0001 C CNN
+F 3 "" H 5950 7850 50  0001 C CNN
+	1    5950 7850
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	6450 7200 6550 7200
+Wire Wire Line
+	6450 7300 6550 7300
+Wire Wire Line
+	6450 7400 6550 7400
+Wire Wire Line
+	6450 7500 6550 7500
+Wire Wire Line
+	6450 7600 6550 7600
+Wire Wire Line
+	6450 7700 6550 7700
+Wire Wire Line
+	6450 7800 6550 7800
+Wire Wire Line
+	6450 7900 6550 7900
+Wire Wire Line
+	6450 8000 6550 8000
+Wire Wire Line
+	6450 8100 6550 8100
+Wire Wire Line
+	6450 8200 6550 8200
+Wire Wire Line
+	6450 8300 6550 8300
+Wire Wire Line
+	5350 7700 5450 7700
+Wire Wire Line
+	5350 7800 5450 7800
+Wire Wire Line
+	5350 7900 5450 7900
+Wire Wire Line
+	5350 8000 5450 8000
+Text GLabel 6550 8400 2    50   Input ~ 0
+GND
+Wire Wire Line
+	6450 8400 6550 8400
+Text GLabel 6550 8500 2    50   Input ~ 0
+3V3
+Wire Wire Line
+	6450 8500 6550 8500
+Text GLabel 1600 3900 2    50   Input ~ 0
+GND
+Wire Wire Line
+	1500 3900 1600 3900
+Text GLabel 7050 10000 1    50   Input ~ 0
+GND
+Text GLabel 7350 10000 1    50   Input ~ 0
+GND
+Text GLabel 8550 10000 1    50   Input ~ 0
+GND
+Text GLabel 7450 10000 1    50   Input ~ 0
+3V3
+Text GLabel 7550 10000 1    50   Input ~ 0
+3V3
 $EndSCHEMATC
