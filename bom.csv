@@ -3,6 +3,7 @@ Quantity,Manufacturer,Manufacturer Part Number ,Digikey Part Number,Description,
 1,Samsung Electro-Mechanics,CL21B105KAFNFNE,1276-2926-1-ND,1 uF Capacitor,C3
 1,Samsung Electro-Mechanics,CL21A475KPFNNNG,1276-6464-1-ND,4.7 uF Capacitor,C2
 3,Samsung Electro-Mechanics,CL21A106MQFNNNE,1276-1298-1-ND,10 uF Capacitor,"C4, C5, C9, C11"
+1,Samsung Electro-Mechanics,CL21B102KBCNNNC,1276-2425-1-ND,10 pF Capacitor,C14
 1,ON Semiconductor,MBR120ESFT3G,MBR120ESFT3GOSCT-ND,Schottky Diode,D1
 1,Amphenol ICC,12401610E4#2A,12401610E4#2ACT-ND,USB-C Receptacle,J2
 1,RF Solutions,RFM95W-868S2,RFM95W-868S2-ND,LoRa Transceiver Module,U3
@@ -17,6 +18,12 @@ Quantity,Manufacturer,Manufacturer Part Number ,Digikey Part Number,Description,
 2,Panasonic Electronic Components,ERA-6AED512V,P123856CT-ND,Resistor: 5.1k,"R8, R9, R14"
 1,Panasonic Electronic Components,ERA-6AED680V,P123869CT-ND,Resistor: 68,R12
 2,C&K,PTS645SK50SMTR92 LFS,CKN9087CT-ND,Tactile Switch,"SW1, SW2"
+1,C&K,L102021ML04Q,CKC5102-ND,SPDT Switch,SW3
 2,ON Semiconductor,MMBT2222ALT1G,MMBT2222ALT1GOSCT-ND,Transistor: NPN BJT,"Q1, Q2"
+1,Diodes Incorporated,DMG3415U-7,DMG3415UDICT-ND,P-Channel MOSFET,Q3
 1,Sensirion AG,SHTC3,1649-1100-1-ND,Temp/Humidity Sensor,U5
 1,Microchip Technology,MCP73831T-2ACI/OT,MCP73831T-2ACI/OTCT-ND,Charge Controller,U6
+1,Würth Elektronik,150060YS75000,732-4981-1-ND,Yellow LED,D3
+1,Würth Elektronik,150060GS75000,732-4971-1-ND,Green LED,D4
+1,Würth Elektronik,150060RS75000,732-4978-1-ND,Red LED,D5
+1,Samsung Electro-Mechanics,CIGW252010GL4R7MNE,1276-6935-1-ND,4.7 uH Inductor,L1
