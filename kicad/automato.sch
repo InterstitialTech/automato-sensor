@@ -579,17 +579,6 @@ Wire Wire Line
 Connection ~ 12950 2000
 Wire Wire Line
 	11700 2000 12100 2000
-$Comp
-L Transistor_FET:DMP3013SFV Q3
-U 1 1 5FE178FD
-P 12650 1650
-F 0 "Q3" H 12856 1696 50  0000 L CNN
-F 1 "DMG3415U" H 12856 1605 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 12850 1575 50  0001 L CIN
-F 3 "https://www.diodes.com/assets/Datasheets/DMP3013SFV.pdf" V 12650 1650 50  0001 L CNN
-	1    12650 1650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	12750 1850 12750 2000
 Connection ~ 12750 2000
@@ -1759,4 +1748,15 @@ Wire Wire Line
 	12750 1350 12750 1450
 Wire Wire Line
 	10300 2700 10300 2750
+$Comp
+L Transistor_FET:DMG2301L Q3
+U 1 1 5FEC3C70
+P 12650 1650
+F 0 "Q3" H 12854 1696 50  0000 L CNN
+F 1 "DMG3415U" H 12854 1605 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 12850 1575 50  0001 L CIN
+F 3 "https://www.diodes.com/assets/Datasheets/DMG2301L.pdf" H 12650 1650 50  0001 L CNN
+	1    12650 1650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
