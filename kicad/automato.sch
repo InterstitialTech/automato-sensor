@@ -580,7 +580,7 @@ L Device:C C9
 U 1 1 5FB0D0D8
 P 10000 4650
 F 0 "C9" V 9748 4650 50  0000 C CNN
-F 1 "10uF" V 9839 4650 50  0000 C CNN
+F 1 "10 uF" V 9839 4650 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 10038 4500 50  0001 C CNN
 F 3 "~" H 10000 4650 50  0001 C CNN
 	1    10000 4650
@@ -625,10 +625,10 @@ Wire Wire Line
 Wire Wire Line
 	8600 6500 9200 6500
 $Comp
-L Connector:Conn_01x07_Male J4
+L Connector:Conn_01x07_Male J3
 U 1 1 5FD37C92
 P 8400 6800
-F 0 "J4" H 8508 7281 50  0000 C CNN
+F 0 "J3" H 8508 7281 50  0000 C CNN
 F 1 "Conn_01x07_Male" H 8508 7190 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Horizontal" H 8400 6800 50  0001 C CNN
 F 3 "~" H 8400 6800 50  0001 C CNN
@@ -962,17 +962,6 @@ Wire Wire Line
 	6800 2050 7000 2050
 Text GLabel 4400 2050 0    50   Input ~ 0
 VBUS
-$Comp
-L Device:D_Schottky D1
-U 1 1 5FDBB256
-P 5100 2050
-F 0 "D1" H 5100 1834 50  0000 C CNN
-F 1 "MBR120" H 5100 1925 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123F" H 5100 2050 50  0001 C CNN
-F 3 "~" H 5100 2050 50  0001 C CNN
-	1    5100 2050
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	5650 2050 5950 2050
 $Comp
@@ -999,8 +988,6 @@ F 3 "" H 6250 2450 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5650 2150 5650 2050
-Wire Wire Line
-	5250 2050 5450 2050
 Connection ~ 5650 2050
 Wire Wire Line
 	4400 2050 4800 2050
@@ -1034,8 +1021,6 @@ $EndComp
 Wire Wire Line
 	4800 2050 4800 2100
 Connection ~ 4800 2050
-Wire Wire Line
-	4800 2050 4950 2050
 $Comp
 L power:GND #PWR012
 U 1 1 5FE413C9
@@ -1054,10 +1039,10 @@ Wire Wire Line
 Wire Wire Line
 	4800 1600 4800 2050
 $Comp
-L Connector:Conn_01x02_Female J6
+L Connector:Conn_01x02_Female J2
 U 1 1 5FE93309
 P 5050 1100
-F 0 "J6" V 5250 1100 50  0000 R CNN
+F 0 "J2" V 5250 1100 50  0000 R CNN
 F 1 "LiPo" V 5150 1150 50  0000 R CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5050 1100 50  0001 C CNN
 F 3 "~" H 5050 1100 50  0001 C CNN
@@ -1400,10 +1385,10 @@ F 3 "" H 1500 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:USB_C_Receptacle J2
+L Connector:USB_C_Receptacle J1
 U 1 1 5FC66410
 P 1500 2300
-F 0 "J2" H 1500 3600 50  0000 C CNN
+F 0 "J1" H 1500 3600 50  0000 C CNN
 F 1 "USB_C_Receptacle" H 1450 3500 50  0000 C CNN
 F 2 "Connector_USB:USB_C_Receptacle_Amphenol_12401610E4-2A_CircularHoles" H 1650 2300 50  0001 C CNN
 F 3 "http://www.usb.org/developers/docs/usb_31_033017.zip" H 1650 2300 50  0001 C CNN
@@ -1490,8 +1475,8 @@ $Comp
 L Switch:SW_SPDT SW3
 U 1 1 60111F4C
 P 7800 2800
-F 0 "SW3" H 7800 2475 50  0000 C CNN
-F 1 "SW_SPDT" H 7800 2566 50  0000 C CNN
+F 0 "SW3" H 8200 2750 50  0000 C CNN
+F 1 "SW_SPDT" H 8200 2850 50  0000 C CNN
 F 2 "automato-sensor:L102021ML04Q" H 7800 2800 50  0001 C CNN
 F 3 "~" H 7800 2800 50  0001 C CNN
 	1    7800 2800
@@ -1679,10 +1664,10 @@ VIN
 Text GLabel 7250 10000 1    50   Input ~ 0
 VBAT
 $Comp
-L Connector:Screw_Terminal_01x20 J5
+L Connector:Screw_Terminal_01x20 J4
 U 1 1 60071AD4
 P 8050 10200
-F 0 "J5" V 8175 10146 50  0000 C CNN
+F 0 "J4" V 8175 10146 50  0000 C CNN
 F 1 "Screw_Terminal_01x20" V 8266 10146 50  0000 C CNN
 F 2 "automato-sensor:TerminalBlock_Phoenix_PT-1,5-20-3.5-H_1x20_P3.50mm_Horizontal" H 8050 10200 50  0001 C CNN
 F 3 "~" H 8050 10200 50  0001 C CNN
@@ -1756,4 +1741,19 @@ Text GLabel 7450 10000 1    50   Input ~ 0
 3V3
 Text GLabel 7550 10000 1    50   Input ~ 0
 3V3
+$Comp
+L Device:D_Schottky_Small D1
+U 1 1 5FEF1F33
+P 5100 2050
+F 0 "D1" H 5050 1850 50  0000 L CNN
+F 1 "SS24-HF" H 4950 1950 50  0000 L CNN
+F 2 "Diode_SMD:D_SMA" V 5100 2050 50  0001 C CNN
+F 3 "https://www.comchiptech.com/admin/files/product/SS24-HF%20Thru.%20SS220-HF%20RevA.PDF" V 5100 2050 50  0001 C CNN
+	1    5100 2050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5200 2050 5450 2050
+Wire Wire Line
+	4800 2050 5000 2050
 $EndSCHEMATC
