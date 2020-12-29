@@ -21,12 +21,12 @@ Quantity,Manufacturer,Manufacturer Part Number ,Digikey Part Number,Description,
 1,Monolithic Power Systems Inc.,MP2452DD-LF-Z,1589-1586-1-ND,Buck Regulator,U7
 1,Panasonic Electronic Components,ERJ-6ENF2212V,P22.1KCCT-ND,Resistor: 22.1k,R1
 1,Panasonic Electronic Components,ERA-6AED473V,P123852CT-ND,Resistor: 47k,R2
-3,Panasonic Electronic Components,ERA-6AED102V,P123793CT-ND,Resistor: 1k,"R3, R15, R17"
+1,Panasonic Electronic Components,ERA-6AED102V,P123793CT-ND,Resistor: 1k,R3
 3,Panasonic Electronic Components,ERA-6AED103V,P123794CT-ND,Resistor: 10k,"R4, R5, R7"
 3,Panasonic Electronic Components,ERA-6AED104V,P123795CT-ND,Resistor: 100k,"R6, R10, R11"
 3,Panasonic Electronic Components,ERA-6AED512V,P123856CT-ND,Resistor: 5.1k,"R8, R9, R14"
 1,Panasonic Electronic Components,ERJ-6ENF3922V,P39.2KCCT-ND,Resistor: 39.2k,R12
-1,Panasonic Electronic Components,ERA-6AED680V,P123869CT-ND,Resistor: 68,R13
+3,Panasonic Electronic Components,ERA-6AED101V,P123792CT-ND,Resistor: 100,"R13, R15, R17"
 1,Panasonic Electronic Components,ERJ-6ENF1243V,P124KCCT-ND,Resistor: 124k,R16
 2,C&K,PTS645SK50SMTR92 LFS,CKN9087CT-ND,Tactile Switch,"SW1, SW2"
 1,C&K,L102021ML04Q,CKC5102-ND,SPDT Switch,SW3
