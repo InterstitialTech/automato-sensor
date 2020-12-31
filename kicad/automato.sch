@@ -1561,7 +1561,7 @@ Wire Wire Line
 	6600 4750 6800 4750
 Connection ~ 6800 4750
 Wire Wire Line
-	8950 3750 8950 4550
+	8950 3750 8950 4100
 $Comp
 L power:GND #PWR024
 U 1 1 5FBB0CF8
@@ -1587,7 +1587,7 @@ $EndComp
 Wire Wire Line
 	8600 4100 8600 4250
 Wire Wire Line
-	8900 4100 9000 4100
+	8900 4100 8950 4100
 Wire Wire Line
 	9300 4100 9300 4250
 $Comp
@@ -1759,4 +1759,9 @@ F 3 "https://www.diodes.com/assets/Datasheets/DMG2301L.pdf" H 12650 1650 50  000
 	1    12650 1650
 	1    0    0    -1  
 $EndComp
+Connection ~ 8950 4100
+Wire Wire Line
+	8950 4100 8950 4550
+Wire Wire Line
+	8950 4100 9000 4100
 $EndSCHEMATC
