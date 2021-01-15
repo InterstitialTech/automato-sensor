@@ -1,6 +1,6 @@
 Quantity,Manufacturer,Manufacturer Part Number ,Digikey Part Number,Description,Designator
-6,Yageo,CC0805JRX7R7BB104,311-4266-1-ND,0.1 uF Capacitor,"C1, C6, C7, C8, C10, C13"
-1,Samsung Electro-Mechanics,CL21B105KAFNFNE,1276-2926-1-ND,1 uF Capacitor,C3
+4,Yageo,CC0805JRX7R7BB104,311-4266-1-ND,0.1 uF Capacitor,"C1, C8, C10, C13"
+2,Samsung Electro-Mechanics,CL21B105KAFNFNE,1276-2926-1-ND,1 uF Capacitor,"C3, C6"
 1,Samsung Electro-Mechanics,CL21A475KPFNNNG,1276-6464-1-ND,4.7 uF Capacitor,C2
 6,Samsung Electro-Mechanics,CL21A106MQFNNNE,1276-1298-1-ND,10 uF Capacitor,"C4, C5, C9, C11, C12, C15"
 1,Samsung Electro-Mechanics,CL21B102KBCNNNC,1276-2425-1-ND,10 pF Capacitor,C14
