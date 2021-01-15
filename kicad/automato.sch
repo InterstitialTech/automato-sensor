@@ -1627,9 +1627,9 @@ Text GLabel 9650 5950 2    50   Input ~ 0
 SPI_CLK
 Text GLabel 9650 6050 2    50   Input ~ 0
 SPI_MISO
-Text GLabel 9650 6150 2    50   Input ~ 0
+Text GLabel 10700 6150 2    50   Input ~ 0
 I2C_SDA
-Text GLabel 9650 6250 2    50   Input ~ 0
+Text GLabel 10700 6250 2    50   Input ~ 0
 I2C_SCL
 Text GLabel 9650 6350 2    50   Input ~ 0
 SPI_MOSI
@@ -1662,9 +1662,7 @@ Wire Wire Line
 Wire Wire Line
 	9550 6050 9650 6050
 Wire Wire Line
-	9550 6150 9650 6150
-Wire Wire Line
-	9550 6250 9650 6250
+	9550 6150 10250 6150
 Wire Wire Line
 	9550 6350 9650 6350
 Wire Wire Line
@@ -1738,4 +1736,60 @@ Wire Wire Line
 	8950 4100 8950 4550
 Wire Wire Line
 	8950 4100 9000 4100
+$Comp
+L Device:R R18
+U 1 1 6005DDCE
+P 10250 5950
+F 0 "R18" H 10320 5996 50  0000 L CNN
+F 1 "4.7k" H 10320 5905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 10180 5950 50  0001 C CNN
+F 3 "~" H 10250 5950 50  0001 C CNN
+	1    10250 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R19
+U 1 1 6005E3C7
+P 10550 5950
+F 0 "R19" H 10620 5996 50  0000 L CNN
+F 1 "4.7k" H 10620 5905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 10480 5950 50  0001 C CNN
+F 3 "~" H 10550 5950 50  0001 C CNN
+	1    10550 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10250 6100 10250 6150
+Connection ~ 10250 6150
+Wire Wire Line
+	10250 6150 10700 6150
+$Comp
+L power:+3.3V #PWR03
+U 1 1 6009B289
+P 10400 5650
+F 0 "#PWR03" H 10400 5500 50  0001 C CNN
+F 1 "+3.3V" H 10415 5823 50  0000 C CNN
+F 2 "" H 10400 5650 50  0001 C CNN
+F 3 "" H 10400 5650 50  0001 C CNN
+	1    10400 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9550 6250 10550 6250
+Wire Wire Line
+	10550 6100 10550 6250
+Connection ~ 10550 6250
+Wire Wire Line
+	10550 6250 10700 6250
+Wire Wire Line
+	10250 5800 10250 5750
+Wire Wire Line
+	10250 5750 10400 5750
+Wire Wire Line
+	10400 5750 10400 5650
+Wire Wire Line
+	10400 5750 10550 5750
+Wire Wire Line
+	10550 5750 10550 5800
+Connection ~ 10400 5750
 $EndSCHEMATC
