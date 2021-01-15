@@ -873,7 +873,7 @@ U 1 1 5FC66410
 P 2500 2500
 F 0 "J1" H 2500 3800 50  0000 C CNN
 F 1 "USB_C_Receptacle" H 2450 3700 50  0000 C CNN
-F 2 "Connector_USB:USB_C_Receptacle_Amphenol_12401610E4-2A_CircularHoles" H 2650 2500 50  0001 C CNN
+F 2 "automato-sensor:USB_C_Receptacle_Amphenol_12401610E4-2A_CircularHoles_nopads" H 2650 2500 50  0001 C CNN
 F 3 "http://www.usb.org/developers/docs/usb_31_033017.zip" H 2650 2500 50  0001 C CNN
 	1    2500 2500
 	1    0    0    -1  
@@ -1792,4 +1792,77 @@ Wire Wire Line
 Wire Wire Line
 	10550 5750 10550 5800
 Connection ~ 10400 5750
+$Comp
+L Connector:TestPoint TP1
+U 1 1 60027D8B
+P 5000 4350
+F 0 "TP1" V 5000 4550 50  0000 L CNN
+F 1 "TestPoint" H 4800 4600 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 5200 4350 50  0001 C CNN
+F 3 "~" H 5200 4350 50  0001 C CNN
+	1    5000 4350
+	0    1    1    0   
+$EndComp
+Text GLabel 4900 4350 0    50   Input ~ 0
+SPI_CLK
+Wire Wire Line
+	5000 4350 4900 4350
+Text GLabel 4900 4550 0    50   Input ~ 0
+SPI_MISO
+Text GLabel 4900 4750 0    50   Input ~ 0
+SPI_MOSI
+Text GLabel 4900 4950 0    50   Input ~ 0
+DATA_CMD
+$Comp
+L Connector:TestPoint TP2
+U 1 1 60038D24
+P 5000 4550
+F 0 "TP2" V 5000 4750 50  0000 L CNN
+F 1 "TestPoint" H 4800 4800 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 5200 4550 50  0001 C CNN
+F 3 "~" H 5200 4550 50  0001 C CNN
+	1    5000 4550
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP3
+U 1 1 6003948D
+P 5000 4750
+F 0 "TP3" V 5000 4950 50  0000 L CNN
+F 1 "TestPoint" H 4800 5000 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 5200 4750 50  0001 C CNN
+F 3 "~" H 5200 4750 50  0001 C CNN
+	1    5000 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP4
+U 1 1 60039684
+P 5000 4950
+F 0 "TP4" V 5000 5150 50  0000 L CNN
+F 1 "TestPoint" H 4800 5200 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 5200 4950 50  0001 C CNN
+F 3 "~" H 5200 4950 50  0001 C CNN
+	1    5000 4950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5000 4550 4900 4550
+Wire Wire Line
+	5000 4750 4900 4750
+Wire Wire Line
+	5000 4950 4900 4950
+$Comp
+L Connector:TestPoint TP5
+U 1 1 60091FFB
+P 12750 2100
+F 0 "TP5" H 12800 2350 50  0000 R CNN
+F 1 "TestPoint" H 12692 2217 50  0001 R CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 12950 2100 50  0001 C CNN
+F 3 "~" H 12950 2100 50  0001 C CNN
+	1    12750 2100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	12750 2000 12750 2100
 $EndSCHEMATC
