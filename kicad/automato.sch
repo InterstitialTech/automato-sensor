@@ -1697,9 +1697,9 @@ F 3 "" H 1500 7350 50  0001 C CNN
 	1    1500 7350
 	1    0    0    -1  
 $EndComp
-Text GLabel 2250 7400 0    50   Input ~ 0
-USB_DN
 Text GLabel 2250 7300 0    50   Input ~ 0
+USB_DN
+Text GLabel 2250 7400 0    50   Input ~ 0
 USB_DP
 Text GLabel 1500 6650 1    50   Input ~ 0
 VBUS
