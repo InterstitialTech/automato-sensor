@@ -12,7 +12,7 @@ Quantity,Manufacturer,Manufacturer Part Number ,Digikey Part Number,Description,
 1,JST Sales America Inc.,B2B-PH-K-S(LF)(SN),455-1704-ND,LiPo Connector,J2
 1,Adam Tech,PH1RB-07-UA,2057-PH1RB-07-UA-ND,1x7 Male Pin Header,J3
 1,Phoenix Contact,1709678,277-8588-ND,20-pos Screw Terminal,J4
-1,Silicon Labs,CP2102N-A02-GQFN24R,336-5888-1-ND,USB-UART Bridge,U1
+1,Silicon Labs,CP2104-F03-GM,336-2008-5-ND,USB-UART Bridge,U1
 1,Diodes Incorporated,AP2112K-3.3TRG1,AP2112K-3.3TRG1DICT-ND,3.3V Regulator,U2
 1,RF Solutions,RFM95W-868S2,RFM95W-868S2-ND,LoRa Transceiver Module,U3
 1,Espressif Systems,ESP32-WROOM-32D (4MB),1965-ESP32-WROOM-32D(4MB)CT-ND,ESP32,U4
