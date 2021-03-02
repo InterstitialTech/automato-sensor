@@ -5,8 +5,8 @@ $Descr B 17000 11000
 encoding utf-8
 Sheet 1 1
 Title "Automato Sensor Board"
-Date ""
-Rev ""
+Date "2021-01-31"
+Rev "1"
 Comp "Interstitial Technology"
 Comment1 ""
 Comment2 ""
