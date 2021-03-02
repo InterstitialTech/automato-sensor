@@ -4,3 +4,4 @@
 *.sch-bak
 *.swp
 .~lock.*
+kicad/_autosave-*
