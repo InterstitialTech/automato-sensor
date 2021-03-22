@@ -606,7 +606,7 @@ U 1 1 5FC66410
 P 2500 2500
 F 0 "J1" H 2500 3800 50  0000 C CNN
 F 1 "USB_C_Receptacle" H 2450 3700 50  0000 C CNN
-F 2 "automato-sensor:USB_C_Receptacle_Amphenol_12401610E4-2A_CircularHoles_nopads" H 2650 2500 50  0001 C CNN
+F 2 "Connector_USB:USB_C_Receptacle_Amphenol_12401610E4-2A_CircularHoles" H 2650 2500 50  0001 C CNN
 F 3 "http://www.usb.org/developers/docs/usb_31_033017.zip" H 2650 2500 50  0001 C CNN
 	1    2500 2500
 	1    0    0    -1  
