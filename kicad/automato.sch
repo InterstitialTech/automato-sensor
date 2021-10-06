@@ -264,7 +264,7 @@ F 3 "" H 14100 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Regulator_Linear:AP2127K-3.3 U2
+L automato-rescue:AP2127K-3.3-Regulator_Linear U2
 U 1 1 5FCFDB8B
 P 13550 2100
 F 0 "U2" H 13550 2442 50  0000 C CNN
@@ -601,7 +601,7 @@ F 3 "" H 2500 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:USB_C_Receptacle J1
+L automato-rescue:USB_C_Receptacle-Connector J1
 U 1 1 5FC66410
 P 2500 2500
 F 0 "J1" H 2500 3800 50  0000 C CNN
@@ -1002,7 +1002,7 @@ F 3 "" H 13100 8250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Sensor_Humidity:SHTC3 U5
+L automato-rescue:SHTC3-Sensor_Humidity U5
 U 1 1 5FDF2FC3
 P 13000 7850
 F 0 "U5" H 13244 7896 50  0000 L CNN
