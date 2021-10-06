@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "Automato Sensor Board"
 Date "2021-01-31"
-Rev "1"
+Rev "1.1"
 Comp "Interstitial Technology"
 Comment1 ""
 Comment2 ""
@@ -739,8 +739,8 @@ F 3 "~" H 6750 1700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	6600 1450 6600 1700
-Text GLabel 6600 1450 1    50   Input ~ 0
+	6600 1000 6600 1150
+Text GLabel 6600 1000 1    50   Input ~ 0
 VBUS
 Wire Wire Line
 	7450 1950 7700 1950
@@ -772,7 +772,7 @@ L Device:R R14
 U 1 1 5FF55927
 P 6100 2300
 F 0 "R14" H 5900 2350 50  0000 L CNN
-F 1 "5.1k" H 5850 2250 50  0000 L CNN
+F 1 "10k" H 5850 2250 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 6030 2300 50  0001 C CNN
 F 3 "~" H 6100 2300 50  0001 C CNN
 	1    6100 2300
@@ -795,8 +795,8 @@ $Comp
 L Battery_Management:MCP73831-2-OT U6
 U 1 1 5FE6ECF4
 P 6600 2050
-F 0 "U6" H 6050 2450 50  0000 C CNN
-F 1 "MCP73831-2-OT" H 6050 2350 50  0000 C CNN
+F 0 "U6" H 5950 2350 50  0000 C CNN
+F 1 "MCP73831-2-OT" H 5950 2250 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5" H 6650 1800 50  0001 L CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf" H 6450 2000 50  0001 C CNN
 	1    6600 2050
@@ -1859,4 +1859,35 @@ F 3 "~" H 4550 7700 50  0001 C CNN
 	1    4550 7700
 	0    1    1    0   
 $EndComp
+$Comp
+L Device:C C16
+U 1 1 6160AB1B
+P 6300 1150
+F 0 "C16" V 6550 1100 50  0000 L CNN
+F 1 "10 uF" V 6450 1050 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6338 1000 50  0001 C CNN
+F 3 "~" H 6300 1150 50  0001 C CNN
+	1    6300 1150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR010
+U 1 1 6160B65B
+P 6050 1250
+F 0 "#PWR010" H 6050 1000 50  0001 C CNN
+F 1 "GND" H 6055 1077 50  0000 C CNN
+F 2 "" H 6050 1250 50  0001 C CNN
+F 3 "" H 6050 1250 50  0001 C CNN
+	1    6050 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 1250 6050 1150
+Wire Wire Line
+	6050 1150 6150 1150
+Wire Wire Line
+	6450 1150 6600 1150
+Connection ~ 6600 1150
+Wire Wire Line
+	6600 1150 6600 1700
 $EndSCHEMATC
