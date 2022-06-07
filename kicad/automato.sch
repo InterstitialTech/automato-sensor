@@ -563,107 +563,107 @@ F 3 "" H 13750 3050 50  0001 C CNN
 	1    13750 3050
 	1    0    0    -1  
 $EndComp
-NoConn ~ 3100 3800
-NoConn ~ 3100 3700
-NoConn ~ 3100 3500
-NoConn ~ 3100 3400
-NoConn ~ 3100 3200
-NoConn ~ 3100 3100
-NoConn ~ 3100 2900
-NoConn ~ 3100 2800
-NoConn ~ 3100 2600
-NoConn ~ 3100 2500
-Connection ~ 3100 2200
+NoConn ~ 1750 3250
+NoConn ~ 1750 3150
+NoConn ~ 1750 2950
+NoConn ~ 1750 2850
+NoConn ~ 1750 2650
+NoConn ~ 1750 2550
+NoConn ~ 1750 2350
+NoConn ~ 1750 2250
+NoConn ~ 1750 2050
+NoConn ~ 1750 1950
+Connection ~ 1750 1650
 Wire Wire Line
-	3100 2200 3200 2200
-Connection ~ 3100 2000
+	1750 1650 1850 1650
+Connection ~ 1750 1450
 Wire Wire Line
-	3100 2000 3200 2000
-Text GLabel 3200 2000 2    50   Input ~ 0
+	1750 1450 1850 1450
+Text GLabel 1850 1450 2    50   Input ~ 0
 USB_DN
-Text GLabel 3200 2200 2    50   Input ~ 0
+Text GLabel 1850 1650 2    50   Input ~ 0
 USB_DP
-Text GLabel 3200 1500 2    50   Input ~ 0
+Text GLabel 1850 950  2    50   Input ~ 0
 VBUS
 Wire Wire Line
-	3100 2000 3100 2100
+	1750 1450 1750 1550
 Wire Wire Line
-	3100 2200 3100 2300
+	1750 1650 1750 1750
 $Comp
 L power:GND #PWR01
 U 1 1 5FC806CF
-P 2500 4200
-F 0 "#PWR01" H 2500 3950 50  0001 C CNN
-F 1 "GND" H 2505 4027 50  0000 C CNN
-F 2 "" H 2500 4200 50  0001 C CNN
-F 3 "" H 2500 4200 50  0001 C CNN
-	1    2500 4200
+P 1150 3650
+F 0 "#PWR01" H 1150 3400 50  0001 C CNN
+F 1 "GND" H 1155 3477 50  0000 C CNN
+F 2 "" H 1150 3650 50  0001 C CNN
+F 3 "" H 1150 3650 50  0001 C CNN
+	1    1150 3650
 	1    0    0    -1  
 $EndComp
 $Comp
 L automato-rescue:USB_C_Receptacle-Connector J1
 U 1 1 5FC66410
-P 2500 2500
-F 0 "J1" H 2500 3800 50  0000 C CNN
-F 1 "USB_C_Receptacle" H 2450 3700 50  0000 C CNN
-F 2 "Connector_USB:USB_C_Receptacle_Amphenol_12401610E4-2A_CircularHoles" H 2650 2500 50  0001 C CNN
-F 3 "http://www.usb.org/developers/docs/usb_31_033017.zip" H 2650 2500 50  0001 C CNN
-	1    2500 2500
+P 1150 1950
+F 0 "J1" H 1150 3250 50  0000 C CNN
+F 1 "USB_C_Receptacle" H 1100 3150 50  0000 C CNN
+F 2 "Connector_USB:USB_C_Receptacle_Amphenol_12401610E4-2A_CircularHoles" H 1300 1950 50  0001 C CNN
+F 3 "http://www.usb.org/developers/docs/usb_31_033017.zip" H 1300 1950 50  0001 C CNN
+	1    1150 1950
 	1    0    0    -1  
 $EndComp
-Connection ~ 4000 1800
+Connection ~ 2650 1250
 Wire Wire Line
-	4000 1700 4000 1800
+	2650 1150 2650 1250
 Wire Wire Line
-	3900 1700 4000 1700
+	2550 1150 2650 1150
 Wire Wire Line
-	4000 1800 4000 1850
+	2650 1250 2650 1300
 Wire Wire Line
-	3900 1800 4000 1800
+	2550 1250 2650 1250
 $Comp
 L power:GND #PWR031
 U 1 1 6002F7F3
-P 4000 1850
-F 0 "#PWR031" H 4000 1600 50  0001 C CNN
-F 1 "GND" H 4005 1677 50  0000 C CNN
-F 2 "" H 4000 1850 50  0001 C CNN
-F 3 "" H 4000 1850 50  0001 C CNN
-	1    4000 1850
+P 2650 1300
+F 0 "#PWR031" H 2650 1050 50  0001 C CNN
+F 1 "GND" H 2655 1127 50  0000 C CNN
+F 2 "" H 2650 1300 50  0001 C CNN
+F 3 "" H 2650 1300 50  0001 C CNN
+	1    2650 1300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3100 1800 3600 1800
+	1750 1250 2250 1250
 Wire Wire Line
-	3100 1700 3600 1700
+	1750 1150 2250 1150
 $Comp
 L Device:R R9
 U 1 1 5FFEB96B
-P 3750 1800
-F 0 "R9" V 3950 1800 50  0000 C CNN
-F 1 "5.1k" V 3850 1800 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 3680 1800 50  0001 C CNN
-F 3 "~" H 3750 1800 50  0001 C CNN
-	1    3750 1800
+P 2400 1250
+F 0 "R9" V 2600 1250 50  0000 C CNN
+F 1 "5.1k" V 2500 1250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2330 1250 50  0001 C CNN
+F 3 "~" H 2400 1250 50  0001 C CNN
+	1    2400 1250
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R8
 U 1 1 5FFEAA93
-P 3750 1700
-F 0 "R8" V 3543 1700 50  0000 C CNN
-F 1 "5.1k" V 3634 1700 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 3680 1700 50  0001 C CNN
-F 3 "~" H 3750 1700 50  0001 C CNN
-	1    3750 1700
+P 2400 1150
+F 0 "R8" V 2193 1150 50  0000 C CNN
+F 1 "5.1k" V 2284 1150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2330 1150 50  0001 C CNN
+F 3 "~" H 2400 1150 50  0001 C CNN
+	1    2400 1150
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2200 4100 2500 4100
+	850  3550 1150 3550
 Wire Wire Line
-	2500 4100 2500 4200
-Connection ~ 2500 4100
+	1150 3550 1150 3650
+Connection ~ 1150 3550
 Wire Wire Line
-	3100 1500 3200 1500
+	1750 950  1850 950 
 Text GLabel 11750 3600 0    50   Input ~ 0
 VIN
 Wire Wire Line
@@ -934,10 +934,10 @@ Text GLabel 7350 10100 2    50   Input ~ 0
 3V3
 Wire Wire Line
 	7250 10100 7350 10100
-Text GLabel 2600 4100 2    50   Input ~ 0
+Text GLabel 1250 3550 2    50   Input ~ 0
 GND
 Wire Wire Line
-	2500 4100 2600 4100
+	1150 3550 1250 3550
 Text GLabel 9500 9450 1    50   Input ~ 0
 GND
 Text GLabel 9800 9450 1    50   Input ~ 0
@@ -1495,63 +1495,63 @@ Connection ~ 10400 5750
 $Comp
 L Connector:TestPoint TP1
 U 1 1 60027D8B
-P 5000 4350
-F 0 "TP1" V 5000 4550 50  0000 L CNN
-F 1 "TestPoint" H 4800 4600 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 5200 4350 50  0001 C CNN
-F 3 "~" H 5200 4350 50  0001 C CNN
-	1    5000 4350
+P 5200 3650
+F 0 "TP1" V 5200 3850 50  0000 L CNN
+F 1 "TestPoint" H 5000 3900 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 5400 3650 50  0001 C CNN
+F 3 "~" H 5400 3650 50  0001 C CNN
+	1    5200 3650
 	0    1    1    0   
 $EndComp
-Text GLabel 4900 4350 0    50   Input ~ 0
+Text GLabel 5100 3650 0    50   Input ~ 0
 SPI_CLK
 Wire Wire Line
-	5000 4350 4900 4350
-Text GLabel 4900 4550 0    50   Input ~ 0
+	5200 3650 5100 3650
+Text GLabel 5100 3850 0    50   Input ~ 0
 SPI_MISO
-Text GLabel 4900 4750 0    50   Input ~ 0
+Text GLabel 5100 4050 0    50   Input ~ 0
 SPI_MOSI
-Text GLabel 4900 4950 0    50   Input ~ 0
+Text GLabel 5100 4250 0    50   Input ~ 0
 DATA_CMD
 $Comp
 L Connector:TestPoint TP2
 U 1 1 60038D24
-P 5000 4550
-F 0 "TP2" V 5000 4750 50  0000 L CNN
-F 1 "TestPoint" H 4800 4800 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 5200 4550 50  0001 C CNN
-F 3 "~" H 5200 4550 50  0001 C CNN
-	1    5000 4550
+P 5200 3850
+F 0 "TP2" V 5200 4050 50  0000 L CNN
+F 1 "TestPoint" H 5000 4100 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 5400 3850 50  0001 C CNN
+F 3 "~" H 5400 3850 50  0001 C CNN
+	1    5200 3850
 	0    1    1    0   
 $EndComp
 $Comp
 L Connector:TestPoint TP3
 U 1 1 6003948D
-P 5000 4750
-F 0 "TP3" V 5000 4950 50  0000 L CNN
-F 1 "TestPoint" H 4800 5000 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 5200 4750 50  0001 C CNN
-F 3 "~" H 5200 4750 50  0001 C CNN
-	1    5000 4750
+P 5200 4050
+F 0 "TP3" V 5200 4250 50  0000 L CNN
+F 1 "TestPoint" H 5000 4300 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 5400 4050 50  0001 C CNN
+F 3 "~" H 5400 4050 50  0001 C CNN
+	1    5200 4050
 	0    1    1    0   
 $EndComp
 $Comp
 L Connector:TestPoint TP4
 U 1 1 60039684
-P 5000 4950
-F 0 "TP4" V 5000 5150 50  0000 L CNN
-F 1 "TestPoint" H 4800 5200 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 5200 4950 50  0001 C CNN
-F 3 "~" H 5200 4950 50  0001 C CNN
-	1    5000 4950
+P 5200 4250
+F 0 "TP4" V 5200 4450 50  0000 L CNN
+F 1 "TestPoint" H 5000 4500 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 5400 4250 50  0001 C CNN
+F 3 "~" H 5400 4250 50  0001 C CNN
+	1    5200 4250
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5000 4550 4900 4550
+	5200 3850 5100 3850
 Wire Wire Line
-	5000 4750 4900 4750
+	5200 4050 5100 4050
 Wire Wire Line
-	5000 4950 4900 4950
+	5200 4250 5100 4250
 $Comp
 L Connector:TestPoint TP5
 U 1 1 60091FFB
@@ -1890,4 +1890,20 @@ Wire Wire Line
 Connection ~ 6600 1150
 Wire Wire Line
 	6600 1150 6600 1700
+$Comp
+L automato-rescue:USB_C_Receptacle-Connector J?
+U 1 1 629FDAF3
+P 3800 1950
+F 0 "J?" H 3800 3250 50  0000 C CNN
+F 1 "USB_C_Receptacle" H 3750 3150 50  0000 C CNN
+F 2 "Connector_USB:USB_C_Receptacle_Amphenol_12401610E4-2A_CircularHoles" H 3950 1950 50  0001 C CNN
+F 3 "http://www.usb.org/developers/docs/usb_31_033017.zip" H 3950 1950 50  0001 C CNN
+	1    3800 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 3550 3800 3550
+Wire Wire Line
+	3800 3550 3950 3550
+Connection ~ 3800 3550
 $EndSCHEMATC
