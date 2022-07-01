@@ -1891,10 +1891,10 @@ Connection ~ 6600 1150
 Wire Wire Line
 	6600 1150 6600 1700
 $Comp
-L automato-rescue:USB_C_Receptacle-Connector J?
+L automato-rescue:USB_C_Receptacle-Connector J5
 U 1 1 629FDAF3
 P 3800 1950
-F 0 "J?" H 3800 3250 50  0000 C CNN
+F 0 "J5" H 3800 3250 50  0000 C CNN
 F 1 "USB_C_Receptacle" H 3750 3150 50  0000 C CNN
 F 2 "Connector_USB:USB_C_Receptacle_Amphenol_12401610E4-2A_CircularHoles" H 3950 1950 50  0001 C CNN
 F 3 "http://www.usb.org/developers/docs/usb_31_033017.zip" H 3950 1950 50  0001 C CNN
@@ -1906,4 +1906,25 @@ Wire Wire Line
 Wire Wire Line
 	3800 3550 3950 3550
 Connection ~ 3800 3550
+Wire Wire Line
+	4400 1150 4550 1150
+Wire Wire Line
+	4550 1150 4550 1250
+Wire Wire Line
+	4550 1250 4400 1250
+Text GLabel 3950 3550 2    50   Input ~ 0
+GND
+$Comp
+L power:GND #PWR0101
+U 1 1 62BC9379
+P 3800 3600
+F 0 "#PWR0101" H 3800 3350 50  0001 C CNN
+F 1 "GND" H 3805 3427 50  0000 C CNN
+F 2 "" H 3800 3600 50  0001 C CNN
+F 3 "" H 3800 3600 50  0001 C CNN
+	1    3800 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 3550 3800 3600
 $EndSCHEMATC
