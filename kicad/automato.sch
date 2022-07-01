@@ -13,25 +13,25 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 10800 9450 1    50   Input ~ 0
+Text GLabel 10000 9050 1    50   Input ~ 0
 A6
-Text GLabel 10900 9450 1    50   Input ~ 0
+Text GLabel 10100 9050 1    50   Input ~ 0
 A7
-Text GLabel 10500 9450 1    50   Input ~ 0
+Text GLabel 9700 9050 1    50   Input ~ 0
 IO33
-Text GLabel 10200 9450 1    50   Input ~ 0
+Text GLabel 9400 9050 1    50   Input ~ 0
 IO26
-Text GLabel 10300 9450 1    50   Input ~ 0
+Text GLabel 9500 9050 1    50   Input ~ 0
 IO27
-Text GLabel 10400 9450 1    50   Input ~ 0
+Text GLabel 9600 9050 1    50   Input ~ 0
 IO32
-Text GLabel 11400 9450 1    50   Input ~ 0
+Text GLabel 10600 9050 1    50   Input ~ 0
 I2C_SCL
-Text GLabel 11300 9450 1    50   Input ~ 0
+Text GLabel 10500 9050 1    50   Input ~ 0
 I2C_SDA
-Text GLabel 11200 9450 1    50   Input ~ 0
+Text GLabel 10400 9050 1    50   Input ~ 0
 TX
-Text GLabel 11100 9450 1    50   Input ~ 0
+Text GLabel 10300 9050 1    50   Input ~ 0
 RX
 Text GLabel 7350 9700 2    50   Input ~ 0
 DATA_CMD
@@ -860,27 +860,16 @@ Wire Wire Line
 Connection ~ 12300 3600
 Wire Wire Line
 	12300 3600 12400 3600
-Text GLabel 10600 9450 1    50   Input ~ 0
+Text GLabel 9800 9050 1    50   Input ~ 0
 A0
-Text GLabel 10700 9450 1    50   Input ~ 0
+Text GLabel 9900 9050 1    50   Input ~ 0
 A1
-Text GLabel 10100 9450 1    50   Input ~ 0
+Text GLabel 9300 9050 1    50   Input ~ 0
 VBUS
-Text GLabel 9600 9450 1    50   Input ~ 0
+Text GLabel 8800 9050 1    50   Input ~ 0
 VIN
-Text GLabel 9700 9450 1    50   Input ~ 0
+Text GLabel 8900 9050 1    50   Input ~ 0
 VBAT
-$Comp
-L Connector:Screw_Terminal_01x20 J4
-U 1 1 60071AD4
-P 10500 9650
-F 0 "J4" V 10625 9596 50  0000 C CNN
-F 1 "Screw_Terminal_01x20" V 10716 9596 50  0000 C CNN
-F 2 "automato-sensor:TerminalBlock_Phoenix_PT-1,5-20-3.5-H_1x20_P3.50mm_Horizontal" H 10500 9650 50  0001 C CNN
-F 3 "~" H 10500 9650 50  0001 C CNN
-	1    10500 9650
-	0    1    1    0   
-$EndComp
 Text GLabel 6150 9300 0    50   Input ~ 0
 SPI_CLK
 $Comp
@@ -938,15 +927,15 @@ Text GLabel 1250 3550 2    50   Input ~ 0
 GND
 Wire Wire Line
 	1150 3550 1250 3550
-Text GLabel 9500 9450 1    50   Input ~ 0
+Text GLabel 8700 9050 1    50   Input ~ 0
 GND
-Text GLabel 9800 9450 1    50   Input ~ 0
+Text GLabel 9000 9050 1    50   Input ~ 0
 GND
-Text GLabel 11000 9450 1    50   Input ~ 0
+Text GLabel 10200 9050 1    50   Input ~ 0
 GND
-Text GLabel 9900 9450 1    50   Input ~ 0
+Text GLabel 9100 9050 1    50   Input ~ 0
 3V3
-Text GLabel 10000 9450 1    50   Input ~ 0
+Text GLabel 9200 9050 1    50   Input ~ 0
 3V3
 $Comp
 L Device:D_Schottky_Small D1
@@ -1495,63 +1484,63 @@ Connection ~ 10400 5750
 $Comp
 L Connector:TestPoint TP1
 U 1 1 60027D8B
-P 5200 3650
-F 0 "TP1" V 5200 3850 50  0000 L CNN
-F 1 "TestPoint" H 5000 3900 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 5400 3650 50  0001 C CNN
-F 3 "~" H 5400 3650 50  0001 C CNN
-	1    5200 3650
+P 5250 3550
+F 0 "TP1" V 5250 3750 50  0000 L CNN
+F 1 "TestPoint" H 5050 3800 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 5450 3550 50  0001 C CNN
+F 3 "~" H 5450 3550 50  0001 C CNN
+	1    5250 3550
 	0    1    1    0   
 $EndComp
-Text GLabel 5100 3650 0    50   Input ~ 0
+Text GLabel 5150 3550 0    50   Input ~ 0
 SPI_CLK
 Wire Wire Line
-	5200 3650 5100 3650
-Text GLabel 5100 3850 0    50   Input ~ 0
+	5250 3550 5150 3550
+Text GLabel 5150 3750 0    50   Input ~ 0
 SPI_MISO
-Text GLabel 5100 4050 0    50   Input ~ 0
+Text GLabel 5150 3950 0    50   Input ~ 0
 SPI_MOSI
-Text GLabel 5100 4250 0    50   Input ~ 0
+Text GLabel 5150 4150 0    50   Input ~ 0
 DATA_CMD
 $Comp
 L Connector:TestPoint TP2
 U 1 1 60038D24
-P 5200 3850
-F 0 "TP2" V 5200 4050 50  0000 L CNN
-F 1 "TestPoint" H 5000 4100 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 5400 3850 50  0001 C CNN
-F 3 "~" H 5400 3850 50  0001 C CNN
-	1    5200 3850
+P 5250 3750
+F 0 "TP2" V 5250 3950 50  0000 L CNN
+F 1 "TestPoint" H 5050 4000 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 5450 3750 50  0001 C CNN
+F 3 "~" H 5450 3750 50  0001 C CNN
+	1    5250 3750
 	0    1    1    0   
 $EndComp
 $Comp
 L Connector:TestPoint TP3
 U 1 1 6003948D
-P 5200 4050
-F 0 "TP3" V 5200 4250 50  0000 L CNN
-F 1 "TestPoint" H 5000 4300 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 5400 4050 50  0001 C CNN
-F 3 "~" H 5400 4050 50  0001 C CNN
-	1    5200 4050
+P 5250 3950
+F 0 "TP3" V 5250 4150 50  0000 L CNN
+F 1 "TestPoint" H 5050 4200 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 5450 3950 50  0001 C CNN
+F 3 "~" H 5450 3950 50  0001 C CNN
+	1    5250 3950
 	0    1    1    0   
 $EndComp
 $Comp
 L Connector:TestPoint TP4
 U 1 1 60039684
-P 5200 4250
-F 0 "TP4" V 5200 4450 50  0000 L CNN
-F 1 "TestPoint" H 5000 4500 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 5400 4250 50  0001 C CNN
-F 3 "~" H 5400 4250 50  0001 C CNN
-	1    5200 4250
+P 5250 4150
+F 0 "TP4" V 5250 4350 50  0000 L CNN
+F 1 "TestPoint" H 5050 4400 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 5450 4150 50  0001 C CNN
+F 3 "~" H 5450 4150 50  0001 C CNN
+	1    5250 4150
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5200 3850 5100 3850
+	5250 3750 5150 3750
 Wire Wire Line
-	5200 4050 5100 4050
+	5250 3950 5150 3950
 Wire Wire Line
-	5200 4250 5100 4250
+	5250 4150 5150 4150
 $Comp
 L Connector:TestPoint TP5
 U 1 1 60091FFB
@@ -1927,4 +1916,155 @@ F 3 "" H 3800 3600 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3800 3550 3800 3600
+$Comp
+L Connector:Screw_Terminal_01x20 J4
+U 1 1 60071AD4
+P 8500 8200
+F 0 "J4" V 8625 8146 50  0000 C CNN
+F 1 "Screw_Terminal_01x20" V 8716 8146 50  0000 C CNN
+F 2 "automato-sensor:TerminalBlock_Phoenix_PT-1,5-20-3.5-H_1x20_P3.50mm_Horizontal" H 8500 8200 50  0001 C CNN
+F 3 "~" H 8500 8200 50  0001 C CNN
+	1    8500 8200
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x15 J?
+U 1 1 62C131DA
+P 10100 9250
+F 0 "J?" V 10225 9246 50  0000 C CNN
+F 1 "Conn_01x15" V 10316 9246 50  0000 C CNN
+F 2 "" H 10100 9250 50  0001 C CNN
+F 3 "~" H 10100 9250 50  0001 C CNN
+	1    10100 9250
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x15_Row_Letter_First J?
+U 1 1 62C15543
+P 10100 9750
+F 0 "J?" V 10104 10530 50  0000 L CNN
+F 1 "Conn_02x15_Row_Letter_First" V 10195 10530 50  0000 L CNN
+F 2 "" H 10100 9750 50  0001 C CNN
+F 3 "~" H 10100 9750 50  0001 C CNN
+	1    10100 9750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10800 9550 10700 9550
+Wire Wire Line
+	9200 9550 9200 9500
+Connection ~ 9400 9550
+Wire Wire Line
+	9400 9550 9200 9550
+Connection ~ 9500 9550
+Wire Wire Line
+	9500 9550 9400 9550
+Connection ~ 9600 9550
+Wire Wire Line
+	9600 9550 9500 9550
+Connection ~ 9700 9550
+Wire Wire Line
+	9700 9550 9600 9550
+Connection ~ 9800 9550
+Wire Wire Line
+	9800 9550 9700 9550
+Connection ~ 9900 9550
+Wire Wire Line
+	9900 9550 9800 9550
+Connection ~ 10000 9550
+Wire Wire Line
+	10000 9550 9900 9550
+Connection ~ 10100 9550
+Wire Wire Line
+	10100 9550 10000 9550
+Connection ~ 10200 9550
+Wire Wire Line
+	10200 9550 10100 9550
+Connection ~ 10300 9550
+Wire Wire Line
+	10300 9550 10200 9550
+Connection ~ 10400 9550
+Wire Wire Line
+	10400 9550 10300 9550
+Connection ~ 10500 9550
+Wire Wire Line
+	10500 9550 10400 9550
+Connection ~ 10600 9550
+Wire Wire Line
+	10600 9550 10500 9550
+Connection ~ 10700 9550
+Wire Wire Line
+	10700 9550 10600 9550
+Wire Wire Line
+	10800 10050 10700 10050
+Wire Wire Line
+	9250 10050 9250 10100
+Connection ~ 9400 10050
+Wire Wire Line
+	9400 10050 9250 10050
+Connection ~ 9500 10050
+Wire Wire Line
+	9500 10050 9400 10050
+Connection ~ 9600 10050
+Wire Wire Line
+	9600 10050 9500 10050
+Connection ~ 9700 10050
+Wire Wire Line
+	9700 10050 9600 10050
+Connection ~ 9800 10050
+Wire Wire Line
+	9800 10050 9700 10050
+Connection ~ 9900 10050
+Wire Wire Line
+	9900 10050 9800 10050
+Connection ~ 10000 10050
+Wire Wire Line
+	10000 10050 9900 10050
+Connection ~ 10100 10050
+Wire Wire Line
+	10100 10050 10000 10050
+Connection ~ 10200 10050
+Wire Wire Line
+	10200 10050 10100 10050
+Connection ~ 10300 10050
+Wire Wire Line
+	10300 10050 10200 10050
+Connection ~ 10400 10050
+Wire Wire Line
+	10400 10050 10300 10050
+Connection ~ 10500 10050
+Wire Wire Line
+	10500 10050 10400 10050
+Connection ~ 10600 10050
+Wire Wire Line
+	10600 10050 10500 10050
+Connection ~ 10700 10050
+Wire Wire Line
+	10700 10050 10600 10050
+$Comp
+L power:GND #PWR?
+U 1 1 62C73366
+P 9250 10100
+F 0 "#PWR?" H 9250 9850 50  0001 C CNN
+F 1 "GND" H 9255 9927 50  0000 C CNN
+F 2 "" H 9250 10100 50  0001 C CNN
+F 3 "" H 9250 10100 50  0001 C CNN
+	1    9250 10100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 62C736E0
+P 9200 9500
+F 0 "#PWR?" H 9200 9350 50  0001 C CNN
+F 1 "+3.3V" H 9215 9673 50  0000 C CNN
+F 2 "" H 9200 9500 50  0001 C CNN
+F 3 "" H 9200 9500 50  0001 C CNN
+	1    9200 9500
+	1    0    0    -1  
+$EndComp
+Text GLabel 10800 9050 1    50   Input ~ 0
+VBAT
+Text GLabel 10700 9050 1    50   Input ~ 0
+VBUS
 $EndSCHEMATC
