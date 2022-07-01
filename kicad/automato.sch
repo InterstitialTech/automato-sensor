@@ -2067,4 +2067,26 @@ Text GLabel 10800 9050 1    50   Input ~ 0
 VBAT
 Text GLabel 10700 9050 1    50   Input ~ 0
 VBUS
+Text GLabel 4550 950  2    50   Input ~ 0
+VBUS
+Wire Wire Line
+	4550 950  4400 950 
+Wire Wire Line
+	4400 1450 4550 1450
+Wire Wire Line
+	4550 1450 4550 1550
+Wire Wire Line
+	4550 1550 4400 1550
+Wire Wire Line
+	4400 1650 4550 1650
+Wire Wire Line
+	4550 1650 4550 1750
+Wire Wire Line
+	4550 1750 4400 1750
+Text GLabel 4550 1450 2    50   Input ~ 0
+SPI_CLK
+Text GLabel 4550 1650 2    50   Input ~ 0
+SPI_MOSI
+Text GLabel 4550 1150 2    50   Input ~ 0
+DATA_CMD
 $EndSCHEMATC
