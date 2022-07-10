@@ -2072,10 +2072,6 @@ VBUS
 Wire Wire Line
 	4550 950  4400 950 
 Wire Wire Line
-	4400 1450 4550 1450
-Wire Wire Line
-	4550 1450 4550 1550
-Wire Wire Line
 	4550 1550 4400 1550
 Wire Wire Line
 	4400 1650 4550 1650
@@ -2083,10 +2079,73 @@ Wire Wire Line
 	4550 1650 4550 1750
 Wire Wire Line
 	4550 1750 4400 1750
-Text GLabel 4550 1450 2    50   Input ~ 0
-SPI_CLK
-Text GLabel 4550 1650 2    50   Input ~ 0
+Text GLabel 4700 1550 2    50   Input ~ 0
 SPI_MOSI
 Text GLabel 4550 1150 2    50   Input ~ 0
 DATA_CMD
+$Comp
+L Connector:Micro_SD_Card_Det J8
+U 1 1 62CCFC39
+P 2950 4950
+F 0 "J8" H 2900 5767 50  0000 C CNN
+F 1 "Micro_SD_Card_Det" H 2900 5676 50  0000 C CNN
+F 2 "Connector_Card:microSD_HC_Hirose_DM3D-SF" H 5000 5650 50  0001 C CNN
+F 3 "https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&item_id=195&is_series=1" H 2950 5050 50  0001 C CNN
+	1    2950 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JP1
+U 1 1 62CD5B31
+P 4700 1750
+F 0 "JP1" V 4654 1818 50  0000 L CNN
+F 1 "SolderJumper_3_Bridged12" V 4745 1818 50  0000 L CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 4700 1750 50  0001 C CNN
+F 3 "~" H 4700 1750 50  0001 C CNN
+	1    4700 1750
+	0    1    1    0   
+$EndComp
+Connection ~ 4550 1750
+Text GLabel 5350 1250 2    50   Input ~ 0
+SPI_CLK
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JP2
+U 1 1 62CF3005
+P 5350 1450
+F 0 "JP2" V 5304 1518 50  0000 L CNN
+F 1 "SolderJumper_3_Bridged12" V 5395 1518 50  0000 L CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 5350 1450 50  0001 C CNN
+F 3 "~" H 5350 1450 50  0001 C CNN
+	1    5350 1450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4550 1550 4550 1450
+Wire Wire Line
+	4550 1450 4400 1450
+Wire Wire Line
+	4550 1450 5200 1450
+Connection ~ 4550 1450
+Text GLabel 4750 2000 3    50   Input ~ 0
+LED_LCD
+Text GLabel 5400 1700 2    50   Input ~ 0
+IRQ_TCH
+Text GLabel 5300 1700 0    50   Input ~ 0
+U2_TXD
+Text GLabel 4650 2000 3    50   Input ~ 0
+U2_RXD
+Wire Wire Line
+	4700 1950 4700 2000
+Wire Wire Line
+	4700 2000 4750 2000
+Wire Wire Line
+	5350 1650 5350 1700
+Wire Wire Line
+	5350 1700 5300 1700
+Wire Wire Line
+	5400 1700 5350 1700
+Connection ~ 5350 1700
+Wire Wire Line
+	4650 2000 4700 2000
+Connection ~ 4700 2000
 $EndSCHEMATC
