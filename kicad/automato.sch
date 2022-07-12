@@ -872,17 +872,6 @@ Text GLabel 8900 9050 1    50   Input ~ 0
 VBAT
 Text GLabel 6150 9300 0    50   Input ~ 0
 SPI_CLK
-$Comp
-L automato-sensor:ILI9341_2.8in LCD1
-U 1 1 5FEE5431
-P 6750 9450
-F 0 "LCD1" H 6750 10365 50  0000 C CNN
-F 1 "ILI9341_2.8in" H 6750 10274 50  0000 C CNN
-F 2 "automato-sensor:ILI9341_2.8in" H 6750 9450 50  0001 C CNN
-F 3 "" H 6750 9450 50  0001 C CNN
-	1    6750 9450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7250 8800 7350 8800
 Wire Wire Line
@@ -1982,8 +1971,6 @@ Wire Wire Line
 	4550 1750 4400 1750
 Text GLabel 4700 1550 2    50   Input ~ 0
 SPI_MOSI
-Text GLabel 4550 1150 2    50   Input ~ 0
-DATA_CMD
 $Comp
 L Connector:Micro_SD_Card_Det J8
 U 1 1 62CCFC39
