@@ -1938,109 +1938,10 @@ F 3 "~" H 10100 9250 50  0001 C CNN
 	1    10100 9250
 	0    1    1    0   
 $EndComp
-$Comp
-L Connector_Generic:Conn_02x15_Row_Letter_First J7
-U 1 1 62C15543
-P 10100 9750
-F 0 "J7" V 10104 10530 50  0000 L CNN
-F 1 "Conn_02x15_Row_Letter_First" V 10195 10530 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x15_P2.54mm_Vertical" H 10100 9750 50  0001 C CNN
-F 3 "~" H 10100 9750 50  0001 C CNN
-	1    10100 9750
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	10800 9550 10700 9550
 Wire Wire Line
 	9200 9550 9200 9500
-Connection ~ 9400 9550
-Wire Wire Line
-	9400 9550 9200 9550
-Connection ~ 9500 9550
-Wire Wire Line
-	9500 9550 9400 9550
-Connection ~ 9600 9550
-Wire Wire Line
-	9600 9550 9500 9550
-Connection ~ 9700 9550
-Wire Wire Line
-	9700 9550 9600 9550
-Connection ~ 9800 9550
-Wire Wire Line
-	9800 9550 9700 9550
-Connection ~ 9900 9550
-Wire Wire Line
-	9900 9550 9800 9550
-Connection ~ 10000 9550
-Wire Wire Line
-	10000 9550 9900 9550
-Connection ~ 10100 9550
-Wire Wire Line
-	10100 9550 10000 9550
-Connection ~ 10200 9550
-Wire Wire Line
-	10200 9550 10100 9550
-Connection ~ 10300 9550
-Wire Wire Line
-	10300 9550 10200 9550
-Connection ~ 10400 9550
-Wire Wire Line
-	10400 9550 10300 9550
-Connection ~ 10500 9550
-Wire Wire Line
-	10500 9550 10400 9550
-Connection ~ 10600 9550
-Wire Wire Line
-	10600 9550 10500 9550
-Connection ~ 10700 9550
-Wire Wire Line
-	10700 9550 10600 9550
-Wire Wire Line
-	10800 10050 10700 10050
 Wire Wire Line
 	9250 10050 9250 10100
-Connection ~ 9400 10050
-Wire Wire Line
-	9400 10050 9250 10050
-Connection ~ 9500 10050
-Wire Wire Line
-	9500 10050 9400 10050
-Connection ~ 9600 10050
-Wire Wire Line
-	9600 10050 9500 10050
-Connection ~ 9700 10050
-Wire Wire Line
-	9700 10050 9600 10050
-Connection ~ 9800 10050
-Wire Wire Line
-	9800 10050 9700 10050
-Connection ~ 9900 10050
-Wire Wire Line
-	9900 10050 9800 10050
-Connection ~ 10000 10050
-Wire Wire Line
-	10000 10050 9900 10050
-Connection ~ 10100 10050
-Wire Wire Line
-	10100 10050 10000 10050
-Connection ~ 10200 10050
-Wire Wire Line
-	10200 10050 10100 10050
-Connection ~ 10300 10050
-Wire Wire Line
-	10300 10050 10200 10050
-Connection ~ 10400 10050
-Wire Wire Line
-	10400 10050 10300 10050
-Connection ~ 10500 10050
-Wire Wire Line
-	10500 10050 10400 10050
-Connection ~ 10600 10050
-Wire Wire Line
-	10600 10050 10500 10050
-Connection ~ 10700 10050
-Wire Wire Line
-	10700 10050 10600 10050
 $Comp
 L power:GND #PWR0102
 U 1 1 62C73366
@@ -2148,4 +2049,103 @@ Connection ~ 5350 1700
 Wire Wire Line
 	4650 2000 4700 2000
 Connection ~ 4700 2000
+$Comp
+L Connector_Generic:Conn_02x15_Odd_Even J?
+U 1 1 62F685E1
+P 10100 9750
+F 0 "J?" V 10104 10530 50  0000 L CNN
+F 1 "Conn_02x15_Odd_Even" V 10195 10530 50  0000 L CNN
+F 2 "" H 10100 9750 50  0001 C CNN
+F 3 "~" H 10100 9750 50  0001 C CNN
+	1    10100 9750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9200 9550 9400 9550
+Wire Wire Line
+	9250 10050 9400 10050
+Wire Wire Line
+	10700 10050 10800 10050
+Wire Wire Line
+	10700 10050 10600 10050
+Connection ~ 10700 10050
+Connection ~ 9400 10050
+Connection ~ 9500 10050
+Wire Wire Line
+	9500 10050 9400 10050
+Connection ~ 9600 10050
+Wire Wire Line
+	9600 10050 9500 10050
+Connection ~ 9700 10050
+Wire Wire Line
+	9700 10050 9600 10050
+Connection ~ 9800 10050
+Wire Wire Line
+	9800 10050 9700 10050
+Connection ~ 9900 10050
+Wire Wire Line
+	9900 10050 9800 10050
+Connection ~ 10000 10050
+Wire Wire Line
+	10000 10050 9900 10050
+Connection ~ 10100 10050
+Wire Wire Line
+	10100 10050 10000 10050
+Connection ~ 10200 10050
+Wire Wire Line
+	10200 10050 10100 10050
+Connection ~ 10300 10050
+Wire Wire Line
+	10300 10050 10200 10050
+Connection ~ 10400 10050
+Wire Wire Line
+	10400 10050 10300 10050
+Connection ~ 10500 10050
+Wire Wire Line
+	10500 10050 10400 10050
+Connection ~ 10600 10050
+Wire Wire Line
+	10600 10050 10500 10050
+Wire Wire Line
+	9400 9550 9500 9550
+Connection ~ 9400 9550
+Connection ~ 9500 9550
+Wire Wire Line
+	9500 9550 9600 9550
+Connection ~ 9600 9550
+Wire Wire Line
+	9600 9550 9700 9550
+Connection ~ 9700 9550
+Wire Wire Line
+	9700 9550 9800 9550
+Connection ~ 9800 9550
+Wire Wire Line
+	9800 9550 9900 9550
+Connection ~ 9900 9550
+Wire Wire Line
+	9900 9550 10000 9550
+Connection ~ 10000 9550
+Wire Wire Line
+	10000 9550 10100 9550
+Connection ~ 10100 9550
+Wire Wire Line
+	10100 9550 10200 9550
+Connection ~ 10200 9550
+Wire Wire Line
+	10200 9550 10300 9550
+Connection ~ 10300 9550
+Wire Wire Line
+	10300 9550 10400 9550
+Connection ~ 10400 9550
+Wire Wire Line
+	10400 9550 10500 9550
+Connection ~ 10500 9550
+Wire Wire Line
+	10500 9550 10600 9550
+Connection ~ 10600 9550
+Wire Wire Line
+	10600 9550 10700 9550
+Connection ~ 10700 9550
+Wire Wire Line
+	10700 9550 10800 9550
 $EndSCHEMATC
