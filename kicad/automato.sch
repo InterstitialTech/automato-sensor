@@ -1983,4 +1983,32 @@ Connection ~ 5350 1700
 Wire Wire Line
 	4650 2000 4700 2000
 Connection ~ 4700 2000
+Wire Wire Line
+	2050 4650 1850 4650
+Text GLabel 1850 4650 0    50   Input ~ 0
+SD_CS
+Text GLabel 1850 4750 0    50   Input ~ 0
+SPI_MOSI
+Text GLabel 1850 4850 0    50   Input ~ 0
+3v3
+Text GLabel 1850 4950 0    50   Input ~ 0
+SPI_CLK
+Text GLabel 1850 5050 0    50   Input ~ 0
+GND
+Text GLabel 1850 5150 0    50   Input ~ 0
+SPI_MISO
+Text GLabel 3850 5450 2    50   Input ~ 0
+GND
+Wire Wire Line
+	3750 5450 3850 5450
+Wire Wire Line
+	1850 5050 2050 5050
+Wire Wire Line
+	1850 4950 2050 4950
+Wire Wire Line
+	1850 4850 2050 4850
+Wire Wire Line
+	1850 4750 2050 4750
+Wire Wire Line
+	1850 5150 2050 5150
 $EndSCHEMATC
