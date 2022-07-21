@@ -17,14 +17,6 @@ Text GLabel 10000 9050 1    50   Input ~ 0
 A6
 Text GLabel 10100 9050 1    50   Input ~ 0
 A7
-Text GLabel 9700 9050 1    50   Input ~ 0
-IO33
-Text GLabel 9400 9050 1    50   Input ~ 0
-IO26
-Text GLabel 9500 9050 1    50   Input ~ 0
-IO27
-Text GLabel 9600 9050 1    50   Input ~ 0
-IO32
 Text GLabel 10600 9050 1    50   Input ~ 0
 I2C_SCL
 Text GLabel 10500 9050 1    50   Input ~ 0
@@ -1940,12 +1932,12 @@ Wire Wire Line
 Text GLabel 9650 5650 2    50   Input ~ 0
 IO15
 $Comp
-L automato-sensor:eink-module M?
+L automato-sensor:eink-module M1
 U 1 1 62DF98C4
 P 6350 9000
-F 0 "M?" H 6250 9450 50  0000 L CNN
+F 0 "M1" H 6250 9450 50  0000 L CNN
 F 1 "eink-module" H 6250 8550 50  0000 L CNN
-F 2 "" H 6450 9150 50  0001 C CNN
+F 2 "automato-sensor:eink-module" H 6450 9150 50  0001 C CNN
 F 3 "" H 6450 9150 50  0001 C CNN
 	1    6350 9000
 	1    0    0    -1  
@@ -1969,10 +1961,10 @@ Wire Wire Line
 Wire Wire Line
 	6150 9350 6000 9350
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0102
 U 1 1 62EC1E84
 P 6000 8750
-F 0 "#PWR?" H 6000 8500 50  0001 C CNN
+F 0 "#PWR0102" H 6000 8500 50  0001 C CNN
 F 1 "GND" V 6000 8550 50  0000 C CNN
 F 2 "" H 6000 8750 50  0001 C CNN
 F 3 "" H 6000 8750 50  0001 C CNN
@@ -1980,10 +1972,10 @@ F 3 "" H 6000 8750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR0103
 U 1 1 62EC2883
 P 6100 8550
-F 0 "#PWR?" H 6100 8400 50  0001 C CNN
+F 0 "#PWR0103" H 6100 8400 50  0001 C CNN
 F 1 "+3.3V" H 6115 8723 50  0000 C CNN
 F 2 "" H 6100 8550 50  0001 C CNN
 F 3 "" H 6100 8550 50  0001 C CNN
@@ -2006,4 +1998,12 @@ Wire Wire Line
 	9550 6850 10500 6850
 Wire Wire Line
 	9550 6750 9650 6750
+Text GLabel 9700 9050 1    50   Input ~ 0
+IO16
+Text GLabel 9400 9050 1    50   Input ~ 0
+IO13
+Text GLabel 9500 9050 1    50   Input ~ 0
+IO14
+Text GLabel 9600 9050 1    50   Input ~ 0
+IO15
 $EndSCHEMATC
