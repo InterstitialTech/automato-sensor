@@ -834,7 +834,7 @@ Text GLabel 9900 9050 1    50   Input ~ 0
 A0
 Text GLabel 10000 9050 1    50   Input ~ 0
 A1
-Text GLabel 9800 9050 1    50   Input ~ 0
+Text GLabel 9200 9050 1    50   Input ~ 0
 VBUS
 Text GLabel 8800 9050 1    50   Input ~ 0
 VIN
@@ -852,7 +852,7 @@ Text GLabel 9400 9050 1    50   Input ~ 0
 GND
 Text GLabel 9600 9050 1    50   Input ~ 0
 3V3
-Text GLabel 9200 9050 1    50   Input ~ 0
+Text GLabel 9800 9050 1    50   Input ~ 0
 3V3
 $Comp
 L Device:D_Schottky_Small D1
