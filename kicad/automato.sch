@@ -13,9 +13,9 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 10000 9050 1    50   Input ~ 0
-A6
 Text GLabel 10100 9050 1    50   Input ~ 0
+A6
+Text GLabel 10200 9050 1    50   Input ~ 0
 A7
 Text GLabel 10600 9050 1    50   Input ~ 0
 I2C_SCL
@@ -830,11 +830,11 @@ Wire Wire Line
 Connection ~ 12300 3600
 Wire Wire Line
 	12300 3600 12400 3600
-Text GLabel 9800 9050 1    50   Input ~ 0
-A0
 Text GLabel 9900 9050 1    50   Input ~ 0
+A0
+Text GLabel 10000 9050 1    50   Input ~ 0
 A1
-Text GLabel 9300 9050 1    50   Input ~ 0
+Text GLabel 9800 9050 1    50   Input ~ 0
 VBUS
 Text GLabel 8800 9050 1    50   Input ~ 0
 VIN
@@ -848,9 +848,9 @@ Text GLabel 8700 9050 1    50   Input ~ 0
 GND
 Text GLabel 9000 9050 1    50   Input ~ 0
 GND
-Text GLabel 10200 9050 1    50   Input ~ 0
+Text GLabel 9400 9050 1    50   Input ~ 0
 GND
-Text GLabel 9100 9050 1    50   Input ~ 0
+Text GLabel 9600 9050 1    50   Input ~ 0
 3V3
 Text GLabel 9200 9050 1    50   Input ~ 0
 3V3
@@ -2000,10 +2000,10 @@ Wire Wire Line
 	9550 6750 9650 6750
 Text GLabel 9700 9050 1    50   Input ~ 0
 IO16
-Text GLabel 9400 9050 1    50   Input ~ 0
+Text GLabel 9100 9050 1    50   Input ~ 0
 IO13
-Text GLabel 9500 9050 1    50   Input ~ 0
+Text GLabel 9300 9050 1    50   Input ~ 0
 IO14
-Text GLabel 9600 9050 1    50   Input ~ 0
+Text GLabel 9500 9050 1    50   Input ~ 0
 IO15
 $EndSCHEMATC
