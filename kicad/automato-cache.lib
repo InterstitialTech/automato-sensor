@@ -727,6 +727,26 @@ X NC 8 300 0 100 L 50 50 1 1 N
 ENDDRAW
 ENDDEF
 #
+# automato-sensor_eink-module
+#
+DEF automato-sensor_eink-module M 0 40 Y Y 1 F N
+F0 "M" -50 450 50 H V C CNN
+F1 "automato-sensor_eink-module" 100 -450 50 H V C CNN
+F2 "" 100 150 50 H I C CNN
+F3 "" 100 150 50 H I C CNN
+DRAW
+S -100 400 200 -400 0 1 0 N
+X BUSY 1 -200 -350 100 R 50 50 1 1 I
+X RST 2 -200 -250 100 R 50 50 1 1 I
+X DC 3 -200 -150 100 R 50 50 1 1 I
+X CS 4 -200 -50 100 R 50 50 1 1 I
+X SCLK 5 -200 50 100 R 50 50 1 1 I
+X SDI 6 -200 150 100 R 50 50 1 1 I
+X GND 7 -200 250 100 R 50 50 1 1 I
+X 3v3 8 -200 350 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # power_+3.3V
 #
 DEF power_+3.3V #PWR 0 0 Y Y 1 F P
