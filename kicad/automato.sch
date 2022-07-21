@@ -33,26 +33,10 @@ Text GLabel 10400 9050 1    50   Input ~ 0
 TX
 Text GLabel 10300 9050 1    50   Input ~ 0
 RX
-Text GLabel 7350 9700 2    50   Input ~ 0
-DATA_CMD
-Text GLabel 7350 8800 2    50   Input ~ 0
-IRQ_TCH
-Text GLabel 7350 8900 2    50   Input ~ 0
-SPI_MISO
 Text GLabel 6000 8850 0    50   Input ~ 0
 SPI_MOSI
-Text GLabel 7350 9100 2    50   Input ~ 0
-CS_TCH
-Text GLabel 7350 9200 2    50   Input ~ 0
-SPI_CLK
-Text GLabel 7350 9300 2    50   Input ~ 0
-SPI_MISO
-Text GLabel 7350 9400 2    50   Input ~ 0
-LED_LCD
 Text GLabel 6000 8950 0    50   Input ~ 0
 SPI_CLK
-Text GLabel 7350 9600 2    50   Input ~ 0
-SPI_MOSI
 Text GLabel 6000 9250 0    50   Input ~ 0
 RST_EINK
 Text GLabel 6000 9050 0    50   Input ~ 0
@@ -864,38 +848,6 @@ Text GLabel 8800 9050 1    50   Input ~ 0
 VIN
 Text GLabel 8900 9050 1    50   Input ~ 0
 VBAT
-Wire Wire Line
-	7250 8800 7350 8800
-Wire Wire Line
-	7250 8900 7350 8900
-Wire Wire Line
-	7250 9000 7350 9000
-Wire Wire Line
-	7250 9100 7350 9100
-Wire Wire Line
-	7250 9200 7350 9200
-Wire Wire Line
-	7250 9300 7350 9300
-Wire Wire Line
-	7250 9400 7350 9400
-Wire Wire Line
-	7250 9500 7350 9500
-Wire Wire Line
-	7250 9600 7350 9600
-Wire Wire Line
-	7250 9700 7350 9700
-Wire Wire Line
-	7250 9800 7350 9800
-Wire Wire Line
-	7250 9900 7350 9900
-Text GLabel 7350 10000 2    50   Input ~ 0
-GND
-Wire Wire Line
-	7250 10000 7350 10000
-Text GLabel 7350 10100 2    50   Input ~ 0
-3V3
-Wire Wire Line
-	7250 10100 7350 10100
 Text GLabel 1250 3550 2    50   Input ~ 0
 GND
 Wire Wire Line
@@ -984,41 +936,39 @@ Text GLabel 8250 4950 0    50   Input ~ 0
 A0
 Connection ~ 7200 4750
 Wire Wire Line
-	10400 6550 10700 6550
-Connection ~ 10400 6550
-Wire Wire Line
-	9550 6550 10400 6550
+	10500 6850 10800 6850
+Connection ~ 10500 6850
 $Comp
 L power:GND #PWR035
 U 1 1 5FE3169F
-P 10400 7150
-F 0 "#PWR035" H 10400 6900 50  0001 C CNN
-F 1 "GND" H 10405 6977 50  0000 C CNN
-F 2 "" H 10400 7150 50  0001 C CNN
-F 3 "" H 10400 7150 50  0001 C CNN
-	1    10400 7150
+P 10500 7450
+F 0 "#PWR035" H 10500 7200 50  0001 C CNN
+F 1 "GND" H 10505 7277 50  0000 C CNN
+F 2 "" H 10500 7450 50  0001 C CNN
+F 3 "" H 10500 7450 50  0001 C CNN
+	1    10500 7450
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R13
 U 1 1 5FE31695
-P 10400 7000
-F 0 "R13" H 10470 7046 50  0000 L CNN
-F 1 "100" H 10470 6955 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 10330 7000 50  0001 C CNN
-F 3 "~" H 10400 7000 50  0001 C CNN
-	1    10400 7000
+P 10500 7300
+F 0 "R13" H 10570 7346 50  0000 L CNN
+F 1 "100" H 10570 7255 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 10430 7300 50  0001 C CNN
+F 3 "~" H 10500 7300 50  0001 C CNN
+	1    10500 7300
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:LED D3
 U 1 1 5FE31677
-P 10400 6700
-F 0 "D3" V 10439 6583 50  0000 R CNN
-F 1 "LED" V 10348 6583 50  0000 R CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Castellated" H 10400 6700 50  0001 C CNN
-F 3 "~" H 10400 6700 50  0001 C CNN
-	1    10400 6700
+P 10500 7000
+F 0 "D3" V 10539 6883 50  0000 R CNN
+F 1 "LED" V 10448 6883 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Castellated" H 10500 7000 50  0001 C CNN
+F 3 "~" H 10500 7000 50  0001 C CNN
+	1    10500 7000
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
@@ -1298,8 +1248,8 @@ Text GLabel 9650 5150 2    50   Input ~ 0
 IRQ_LORA
 Text GLabel 9650 5250 2    50   Input ~ 0
 CS_LORA
-Text GLabel 11400 6150 2    50   Input ~ 0
-CS_LCD
+Text GLabel 9650 6750 2    50   Input ~ 0
+CS_EINK
 Wire Wire Line
 	9550 4950 9650 4950
 Wire Wire Line
@@ -1308,7 +1258,7 @@ Wire Wire Line
 	9550 5250 9650 5250
 Wire Wire Line
 	9550 5350 9650 5350
-Text GLabel 11400 6250 2    50   Input ~ 0
+Text GLabel 9650 5850 2    50   Input ~ 0
 CS_SD
 Text GLabel 9650 5950 2    50   Input ~ 0
 SPI_CLK
@@ -1320,10 +1270,8 @@ Text GLabel 10700 6250 2    50   Input ~ 0
 I2C_SCL
 Text GLabel 9650 6350 2    50   Input ~ 0
 SPI_MOSI
-Text GLabel 9650 6450 2    50   Input ~ 0
-DATA_CMD
-Text GLabel 9650 5350 2    50   Input ~ 0
-IO12
+Text GLabel 9650 5750 2    50   Input ~ 0
+IO16
 Text GLabel 9650 5450 2    50   Input ~ 0
 IO13
 Text GLabel 9650 5550 2    50   Input ~ 0
@@ -1354,10 +1302,6 @@ Wire Wire Line
 	9550 6450 9650 6450
 Wire Wire Line
 	9550 6650 9650 6650
-Wire Wire Line
-	9550 6750 9650 6750
-Wire Wire Line
-	9550 6850 9650 6850
 Wire Wire Line
 	9550 6950 9650 6950
 Wire Wire Line
@@ -1463,8 +1407,6 @@ Text GLabel 5150 3750 0    50   Input ~ 0
 SPI_MISO
 Text GLabel 5150 3950 0    50   Input ~ 0
 SPI_MOSI
-Text GLabel 5150 4150 0    50   Input ~ 0
-DATA_CMD
 $Comp
 L Connector:TestPoint TP2
 U 1 1 60038D24
@@ -1487,23 +1429,10 @@ F 3 "~" H 5450 3950 50  0001 C CNN
 	1    5250 3950
 	0    1    1    0   
 $EndComp
-$Comp
-L Connector:TestPoint TP4
-U 1 1 60039684
-P 5250 4150
-F 0 "TP4" V 5250 4350 50  0000 L CNN
-F 1 "TestPoint" H 5050 4400 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 5450 4150 50  0001 C CNN
-F 3 "~" H 5450 4150 50  0001 C CNN
-	1    5250 4150
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	5250 3750 5150 3750
 Wire Wire Line
 	5250 3950 5150 3950
-Wire Wire Line
-	5250 4150 5150 4150
 $Comp
 L Connector:TestPoint TP5
 U 1 1 60091FFB
@@ -2009,7 +1938,7 @@ Connection ~ 4550 1200
 Wire Wire Line
 	4550 1200 4550 1250
 Text GLabel 9650 5650 2    50   Input ~ 0
-IO33
+IO15
 $Comp
 L automato-sensor:eink-module M?
 U 1 1 62DF98C4
@@ -2061,4 +1990,20 @@ F 3 "" H 6100 8550 50  0001 C CNN
 	1    6100 8550
 	1    0    0    -1  
 $EndComp
+Text GLabel 6000 9150 0    50   Input ~ 0
+DC_EINK
+Text GLabel 6000 9350 0    50   Input ~ 0
+BUSY_EINK
+Text GLabel 9650 6450 2    50   Input ~ 0
+BUSY_EINK
+Text GLabel 9650 6650 2    50   Input ~ 0
+DC_EINK
+Text GLabel 9650 6550 2    50   Input ~ 0
+RST_EINK
+Wire Wire Line
+	9650 6550 9550 6550
+Wire Wire Line
+	9550 6850 10500 6850
+Wire Wire Line
+	9550 6750 9650 6750
 $EndSCHEMATC
