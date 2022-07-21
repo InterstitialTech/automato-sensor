@@ -39,7 +39,7 @@ Text GLabel 7350 8800 2    50   Input ~ 0
 IRQ_TCH
 Text GLabel 7350 8900 2    50   Input ~ 0
 SPI_MISO
-Text GLabel 7350 9000 2    50   Input ~ 0
+Text GLabel 6000 8850 0    50   Input ~ 0
 SPI_MOSI
 Text GLabel 7350 9100 2    50   Input ~ 0
 CS_TCH
@@ -49,14 +49,14 @@ Text GLabel 7350 9300 2    50   Input ~ 0
 SPI_MISO
 Text GLabel 7350 9400 2    50   Input ~ 0
 LED_LCD
-Text GLabel 7350 9500 2    50   Input ~ 0
+Text GLabel 6000 8950 0    50   Input ~ 0
 SPI_CLK
 Text GLabel 7350 9600 2    50   Input ~ 0
 SPI_MOSI
-Text GLabel 7350 9800 2    50   Input ~ 0
-RST_LCD
-Text GLabel 7350 9900 2    50   Input ~ 0
-CS_LCD
+Text GLabel 6000 9250 0    50   Input ~ 0
+RST_EINK
+Text GLabel 6000 9050 0    50   Input ~ 0
+CS_EINK
 Text GLabel 13400 6350 0    50   Input ~ 0
 RST_LORA
 Wire Wire Line
@@ -1298,7 +1298,7 @@ Text GLabel 9650 5150 2    50   Input ~ 0
 IRQ_LORA
 Text GLabel 9650 5250 2    50   Input ~ 0
 CS_LORA
-Text GLabel 9650 5350 2    50   Input ~ 0
+Text GLabel 11400 6150 2    50   Input ~ 0
 CS_LCD
 Wire Wire Line
 	9550 4950 9650 4950
@@ -1308,16 +1308,8 @@ Wire Wire Line
 	9550 5250 9650 5250
 Wire Wire Line
 	9550 5350 9650 5350
-Text GLabel 9650 5450 2    50   Input ~ 0
-CS_TCH
-Text GLabel 9650 5550 2    50   Input ~ 0
+Text GLabel 11400 6250 2    50   Input ~ 0
 CS_SD
-Text GLabel 9650 5650 2    50   Input ~ 0
-RST_LCD
-Text GLabel 9650 5750 2    50   Input ~ 0
-LED_LCD
-Text GLabel 9650 5850 2    50   Input ~ 0
-IRQ_TCH
 Text GLabel 9650 5950 2    50   Input ~ 0
 SPI_CLK
 Text GLabel 9650 6050 2    50   Input ~ 0
@@ -1330,14 +1322,12 @@ Text GLabel 9650 6350 2    50   Input ~ 0
 SPI_MOSI
 Text GLabel 9650 6450 2    50   Input ~ 0
 DATA_CMD
-Text GLabel 10700 6550 2    50   Input ~ 0
-IO26
-Text GLabel 9650 6650 2    50   Input ~ 0
-IO27
-Text GLabel 9650 6750 2    50   Input ~ 0
-IO32
-Text GLabel 9650 6850 2    50   Input ~ 0
-IO33
+Text GLabel 9650 5350 2    50   Input ~ 0
+IO12
+Text GLabel 9650 5450 2    50   Input ~ 0
+IO13
+Text GLabel 9650 5550 2    50   Input ~ 0
+IO14
 Text GLabel 9650 6950 2    50   Input ~ 0
 A6
 Text GLabel 9650 7050 2    50   Input ~ 0
@@ -1871,7 +1861,7 @@ Connection ~ 3800 3550
 Wire Wire Line
 	4400 1150 4550 1150
 Wire Wire Line
-	4550 1150 4550 1250
+	4550 1150 4550 1200
 Wire Wire Line
 	4550 1250 4400 1250
 Text GLabel 3950 3550 2    50   Input ~ 0
@@ -2011,4 +2001,64 @@ Wire Wire Line
 	1850 4750 2050 4750
 Wire Wire Line
 	1850 5150 2050 5150
+Text GLabel 4600 1200 2    50   Input ~ 0
+CS_RELAY
+Wire Wire Line
+	4550 1200 4600 1200
+Connection ~ 4550 1200
+Wire Wire Line
+	4550 1200 4550 1250
+Text GLabel 9650 5650 2    50   Input ~ 0
+IO33
+$Comp
+L automato-sensor:eink-module M?
+U 1 1 62DF98C4
+P 6350 9000
+F 0 "M?" H 6250 9450 50  0000 L CNN
+F 1 "eink-module" H 6250 8550 50  0000 L CNN
+F 2 "" H 6450 9150 50  0001 C CNN
+F 3 "" H 6450 9150 50  0001 C CNN
+	1    6350 9000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 8650 6100 8650
+Wire Wire Line
+	6100 8650 6100 8550
+Wire Wire Line
+	6150 8750 6000 8750
+Wire Wire Line
+	6150 8850 6000 8850
+Wire Wire Line
+	6150 8950 6000 8950
+Wire Wire Line
+	6150 9050 6000 9050
+Wire Wire Line
+	6150 9150 6000 9150
+Wire Wire Line
+	6150 9250 6000 9250
+Wire Wire Line
+	6150 9350 6000 9350
+$Comp
+L power:GND #PWR?
+U 1 1 62EC1E84
+P 6000 8750
+F 0 "#PWR?" H 6000 8500 50  0001 C CNN
+F 1 "GND" V 6000 8550 50  0000 C CNN
+F 2 "" H 6000 8750 50  0001 C CNN
+F 3 "" H 6000 8750 50  0001 C CNN
+	1    6000 8750
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 62EC2883
+P 6100 8550
+F 0 "#PWR?" H 6100 8400 50  0001 C CNN
+F 1 "+3.3V" H 6115 8723 50  0000 C CNN
+F 2 "" H 6100 8550 50  0001 C CNN
+F 3 "" H 6100 8550 50  0001 C CNN
+	1    6100 8550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
