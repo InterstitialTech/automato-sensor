@@ -10127,7 +10127,7 @@
   )
 
   (module Resistor_SMD:R_0805_2012Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 5FEB191A)
-    (at 174 66.8 270)
+    (at 173.4 67.2125 270)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5FCE925F)
@@ -11510,7 +11510,7 @@
   )
 
   (module TestPoint:TestPoint_Pad_D2.0mm (layer F.Cu) (tedit 5A0F774F) (tstamp 62CCAE16)
-    (at 180.25 67.25)
+    (at 153.55 43.95)
     (descr "SMD pad as test Point, diameter 2.0mm")
     (tags "test point SMD pad")
     (path /60027D8B)
@@ -11531,7 +11531,7 @@
   )
 
   (module TestPoint:TestPoint_Pad_D2.0mm (layer F.Cu) (tedit 5A0F774F) (tstamp 600183D5)
-    (at 180.25 70.25)
+    (at 153.55 46.95)
     (descr "SMD pad as test Point, diameter 2.0mm")
     (tags "test point SMD pad")
     (path /60038D24)
@@ -11552,7 +11552,7 @@
   )
 
   (module TestPoint:TestPoint_Pad_D2.0mm (layer F.Cu) (tedit 5A0F774F) (tstamp 600183AB)
-    (at 180.25 73.25)
+    (at 153.55 49.95)
     (descr "SMD pad as test Point, diameter 2.0mm")
     (tags "test point SMD pad")
     (path /6003948D)
@@ -11573,7 +11573,7 @@
   )
 
   (module TestPoint:TestPoint_Pad_D2.0mm (layer F.Cu) (tedit 5A0F774F) (tstamp 600183EA)
-    (at 180.25 76.25)
+    (at 153.55 52.95)
     (descr "SMD pad as test Point, diameter 2.0mm")
     (tags "test point SMD pad")
     (path /60039684)
