@@ -2006,4 +2006,29 @@ Text GLabel 9300 9050 1    50   Input ~ 0
 IO14
 Text GLabel 9500 9050 1    50   Input ~ 0
 IO15
+$Comp
+L Connector:Conn_Coaxial J6
+U 1 1 63230F63
+P 16150 5850
+F 0 "J6" H 16250 5825 50  0000 L CNN
+F 1 "Conn_Coaxial" H 16250 5734 50  0000 L CNN
+F 2 "Connector_Coaxial:SMA_Wurth_60312002114503_Vertical" H 16150 5850 50  0001 C CNN
+F 3 " ~" H 16150 5850 50  0001 C CNN
+	1    16150 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15600 5850 15950 5850
+Connection ~ 15600 5850
+$Comp
+L power:GND #PWR?
+U 1 1 63249D3B
+P 16150 6050
+F 0 "#PWR?" H 16150 5800 50  0001 C CNN
+F 1 "GND" H 16155 5877 50  0000 C CNN
+F 2 "" H 16150 6050 50  0001 C CNN
+F 3 "" H 16150 6050 50  0001 C CNN
+	1    16150 6050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
