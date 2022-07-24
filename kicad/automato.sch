@@ -1250,7 +1250,7 @@ Wire Wire Line
 	9550 5250 9650 5250
 Wire Wire Line
 	9550 5350 9650 5350
-Text GLabel 9650 5850 2    50   Input ~ 0
+Text GLabel 9650 5350 2    50   Input ~ 0
 CS_SD
 Text GLabel 9650 5950 2    50   Input ~ 0
 SPI_CLK
@@ -1872,28 +1872,16 @@ Wire Wire Line
 Wire Wire Line
 	4550 1450 5200 1450
 Connection ~ 4550 1450
-Text GLabel 4750 2000 3    50   Input ~ 0
-LED_LCD
-Text GLabel 5400 1700 2    50   Input ~ 0
-IRQ_TCH
 Text GLabel 5300 1700 0    50   Input ~ 0
 U2_TXD
-Text GLabel 4650 2000 3    50   Input ~ 0
+Text GLabel 4700 2000 3    50   Input ~ 0
 U2_RXD
 Wire Wire Line
 	4700 1950 4700 2000
 Wire Wire Line
-	4700 2000 4750 2000
-Wire Wire Line
 	5350 1650 5350 1700
 Wire Wire Line
 	5350 1700 5300 1700
-Wire Wire Line
-	5400 1700 5350 1700
-Connection ~ 5350 1700
-Wire Wire Line
-	4650 2000 4700 2000
-Connection ~ 4700 2000
 Wire Wire Line
 	2050 4650 1850 4650
 Text GLabel 1850 4650 0    50   Input ~ 0
@@ -2021,14 +2009,16 @@ Wire Wire Line
 	15600 5850 15950 5850
 Connection ~ 15600 5850
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0104
 U 1 1 63249D3B
 P 16150 6050
-F 0 "#PWR?" H 16150 5800 50  0001 C CNN
+F 0 "#PWR0104" H 16150 5800 50  0001 C CNN
 F 1 "GND" H 16155 5877 50  0000 C CNN
 F 2 "" H 16150 6050 50  0001 C CNN
 F 3 "" H 16150 6050 50  0001 C CNN
 	1    16150 6050
 	1    0    0    -1  
 $EndComp
+Text GLabel 9650 5850 2    50   Input ~ 0
+CS_RELAY
 $EndSCHEMATC
