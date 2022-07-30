@@ -13,25 +13,25 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 10100 9050 1    50   Input ~ 0
+Text GLabel 9750 9800 1    50   Input ~ 0
 A6
-Text GLabel 10200 9050 1    50   Input ~ 0
+Text GLabel 9850 9800 1    50   Input ~ 0
 A7
-Text GLabel 10600 9050 1    50   Input ~ 0
+Text GLabel 10250 9800 1    50   Input ~ 0
 I2C_SCL
-Text GLabel 10500 9050 1    50   Input ~ 0
+Text GLabel 10150 9800 1    50   Input ~ 0
 I2C_SDA
-Text GLabel 10400 9050 1    50   Input ~ 0
+Text GLabel 10050 9800 1    50   Input ~ 0
 TX
-Text GLabel 10300 9050 1    50   Input ~ 0
+Text GLabel 9950 9800 1    50   Input ~ 0
 RX
-Text GLabel 6000 8850 0    50   Input ~ 0
+Text GLabel 11400 9650 0    50   Input ~ 0
 SPI_MOSI
-Text GLabel 6000 8950 0    50   Input ~ 0
+Text GLabel 11400 9750 0    50   Input ~ 0
 SPI_CLK
-Text GLabel 6000 9250 0    50   Input ~ 0
+Text GLabel 11400 10050 0    50   Input ~ 0
 RST_EINK
-Text GLabel 6000 9050 0    50   Input ~ 0
+Text GLabel 11400 9850 0    50   Input ~ 0
 CS_EINK
 Text GLabel 13400 6350 0    50   Input ~ 0
 RST_LORA
@@ -830,29 +830,29 @@ Wire Wire Line
 Connection ~ 12300 3600
 Wire Wire Line
 	12300 3600 12400 3600
-Text GLabel 9900 9050 1    50   Input ~ 0
+Text GLabel 9550 9800 1    50   Input ~ 0
 A0
-Text GLabel 10000 9050 1    50   Input ~ 0
+Text GLabel 9650 9800 1    50   Input ~ 0
 A1
-Text GLabel 9200 9050 1    50   Input ~ 0
+Text GLabel 8850 9800 1    50   Input ~ 0
 VBUS
-Text GLabel 8800 9050 1    50   Input ~ 0
+Text GLabel 8450 9800 1    50   Input ~ 0
 VIN
-Text GLabel 8900 9050 1    50   Input ~ 0
+Text GLabel 8550 9800 1    50   Input ~ 0
 VBAT
 Text GLabel 1250 3550 2    50   Input ~ 0
 GND
 Wire Wire Line
 	1150 3550 1250 3550
-Text GLabel 8700 9050 1    50   Input ~ 0
+Text GLabel 8350 9800 1    50   Input ~ 0
 GND
-Text GLabel 9000 9050 1    50   Input ~ 0
+Text GLabel 8650 9800 1    50   Input ~ 0
 GND
-Text GLabel 9400 9050 1    50   Input ~ 0
+Text GLabel 9050 9800 1    50   Input ~ 0
 GND
-Text GLabel 9600 9050 1    50   Input ~ 0
+Text GLabel 9250 9800 1    50   Input ~ 0
 3V3
-Text GLabel 9800 9050 1    50   Input ~ 0
+Text GLabel 9450 9800 1    50   Input ~ 0
 3V3
 $Comp
 L Device:D_Schottky_Small D1
@@ -1240,7 +1240,7 @@ Text GLabel 9650 5150 2    50   Input ~ 0
 IRQ_LORA
 Text GLabel 9650 5250 2    50   Input ~ 0
 CS_LORA
-Text GLabel 9650 6750 2    50   Input ~ 0
+Text GLabel 9650 6650 2    50   Input ~ 0
 CS_EINK
 Wire Wire Line
 	9550 4950 9650 4950
@@ -1803,17 +1803,17 @@ Wire Wire Line
 $Comp
 L Connector:Screw_Terminal_01x20 J4
 U 1 1 60071AD4
-P 9700 9250
-F 0 "J4" V 9825 9196 50  0000 C CNN
-F 1 "Screw_Terminal_01x20" V 9916 9196 50  0000 C CNN
-F 2 "automato-sensor:TerminalBlock_Phoenix_PT-1,5-20-3.5-H_1x20_P3.50mm_Horizontal" H 9700 9250 50  0001 C CNN
-F 3 "~" H 9700 9250 50  0001 C CNN
-	1    9700 9250
+P 9350 10000
+F 0 "J4" V 9475 9946 50  0000 C CNN
+F 1 "Screw_Terminal_01x20" V 9566 9946 50  0000 C CNN
+F 2 "automato-sensor:TerminalBlock_Phoenix_PT-1,5-20-3.5-H_1x20_P3.50mm_Horizontal" H 9350 10000 50  0001 C CNN
+F 3 "~" H 9350 10000 50  0001 C CNN
+	1    9350 10000
 	0    1    1    0   
 $EndComp
-Text GLabel 10800 9050 1    50   Input ~ 0
+Text GLabel 10450 9800 1    50   Input ~ 0
 VBAT
-Text GLabel 10700 9050 1    50   Input ~ 0
+Text GLabel 10350 9800 1    50   Input ~ 0
 VBUS
 Text GLabel 4550 950  2    50   Input ~ 0
 VBUS
@@ -1885,7 +1885,7 @@ Wire Wire Line
 Wire Wire Line
 	2050 4650 1850 4650
 Text GLabel 1850 4650 0    50   Input ~ 0
-SD_CS
+CS_SD
 Text GLabel 1850 4750 0    50   Input ~ 0
 SPI_MOSI
 Text GLabel 1850 4850 0    50   Input ~ 0
@@ -1922,63 +1922,63 @@ IO15
 $Comp
 L automato-sensor:eink-module M1
 U 1 1 62DF98C4
-P 6350 9000
-F 0 "M1" H 6250 9450 50  0000 L CNN
-F 1 "eink-module" H 6250 8550 50  0000 L CNN
-F 2 "automato-sensor:eink-module" H 6450 9150 50  0001 C CNN
-F 3 "" H 6450 9150 50  0001 C CNN
-	1    6350 9000
+P 11750 9800
+F 0 "M1" H 11650 10250 50  0000 L CNN
+F 1 "eink-module" H 11650 9350 50  0000 L CNN
+F 2 "automato-sensor:eink-module" H 11850 9950 50  0001 C CNN
+F 3 "" H 11850 9950 50  0001 C CNN
+	1    11750 9800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6150 8650 6100 8650
+	11550 9450 11500 9450
 Wire Wire Line
-	6100 8650 6100 8550
+	11500 9450 11500 9350
 Wire Wire Line
-	6150 8750 6000 8750
+	11550 9550 11400 9550
 Wire Wire Line
-	6150 8850 6000 8850
+	11550 9650 11400 9650
 Wire Wire Line
-	6150 8950 6000 8950
+	11550 9750 11400 9750
 Wire Wire Line
-	6150 9050 6000 9050
+	11550 9850 11400 9850
 Wire Wire Line
-	6150 9150 6000 9150
+	11550 9950 11400 9950
 Wire Wire Line
-	6150 9250 6000 9250
+	11550 10050 11400 10050
 Wire Wire Line
-	6150 9350 6000 9350
+	11550 10150 11400 10150
 $Comp
 L power:GND #PWR0102
 U 1 1 62EC1E84
-P 6000 8750
-F 0 "#PWR0102" H 6000 8500 50  0001 C CNN
-F 1 "GND" V 6000 8550 50  0000 C CNN
-F 2 "" H 6000 8750 50  0001 C CNN
-F 3 "" H 6000 8750 50  0001 C CNN
-	1    6000 8750
+P 11400 9550
+F 0 "#PWR0102" H 11400 9300 50  0001 C CNN
+F 1 "GND" V 11400 9350 50  0000 C CNN
+F 2 "" H 11400 9550 50  0001 C CNN
+F 3 "" H 11400 9550 50  0001 C CNN
+	1    11400 9550
 	0    1    1    0   
 $EndComp
 $Comp
 L power:+3.3V #PWR0103
 U 1 1 62EC2883
-P 6100 8550
-F 0 "#PWR0103" H 6100 8400 50  0001 C CNN
-F 1 "+3.3V" H 6115 8723 50  0000 C CNN
-F 2 "" H 6100 8550 50  0001 C CNN
-F 3 "" H 6100 8550 50  0001 C CNN
-	1    6100 8550
+P 11500 9350
+F 0 "#PWR0103" H 11500 9200 50  0001 C CNN
+F 1 "+3.3V" H 11515 9523 50  0000 C CNN
+F 2 "" H 11500 9350 50  0001 C CNN
+F 3 "" H 11500 9350 50  0001 C CNN
+	1    11500 9350
 	1    0    0    -1  
 $EndComp
-Text GLabel 6000 9150 0    50   Input ~ 0
+Text GLabel 11400 9950 0    50   Input ~ 0
 DC_EINK
-Text GLabel 6000 9350 0    50   Input ~ 0
+Text GLabel 11400 10150 0    50   Input ~ 0
 BUSY_EINK
-Text GLabel 9650 6450 2    50   Input ~ 0
+Text GLabel 9650 6750 2    50   Input ~ 0
 BUSY_EINK
-Text GLabel 9650 6650 2    50   Input ~ 0
-DC_EINK
 Text GLabel 9650 6550 2    50   Input ~ 0
+DC_EINK
+Text GLabel 9650 6450 2    50   Input ~ 0
 RST_EINK
 Wire Wire Line
 	9650 6550 9550 6550
@@ -1986,13 +1986,13 @@ Wire Wire Line
 	9550 6850 10500 6850
 Wire Wire Line
 	9550 6750 9650 6750
-Text GLabel 9700 9050 1    50   Input ~ 0
+Text GLabel 9350 9800 1    50   Input ~ 0
 IO16
-Text GLabel 9100 9050 1    50   Input ~ 0
+Text GLabel 8750 9800 1    50   Input ~ 0
 IO13
-Text GLabel 9300 9050 1    50   Input ~ 0
+Text GLabel 8950 9800 1    50   Input ~ 0
 IO14
-Text GLabel 9500 9050 1    50   Input ~ 0
+Text GLabel 9150 9800 1    50   Input ~ 0
 IO15
 $Comp
 L Connector:Conn_Coaxial J6
@@ -2021,4 +2021,176 @@ F 3 "" H 16150 6050 50  0001 C CNN
 $EndComp
 Text GLabel 9650 5850 2    50   Input ~ 0
 CS_RELAY
+$Comp
+L Connector:Conn_01x04_Male J10
+U 1 1 6327EA5F
+P 4000 9550
+F 0 "J10" H 4108 9831 50  0000 C CNN
+F 1 "QWIIC 0" H 4108 9740 50  0000 C CNN
+F 2 "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal" H 4000 9550 50  0001 C CNN
+F 3 "~" H 4000 9550 50  0001 C CNN
+	1    4000 9550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J11
+U 1 1 632B9C4F
+P 5500 9450
+F 0 "J11" H 5608 9631 50  0000 C CNN
+F 1 "1WIRE 0" H 5608 9540 50  0000 C CNN
+F 2 "" H 5500 9450 50  0001 C CNN
+F 3 "~" H 5500 9450 50  0001 C CNN
+	1    5500 9450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J12
+U 1 1 632BAE07
+P 6300 9450
+F 0 "J12" H 6408 9631 50  0000 C CNN
+F 1 "1WIRE 1" H 6408 9540 50  0000 C CNN
+F 2 "" H 6300 9450 50  0001 C CNN
+F 3 "~" H 6300 9450 50  0001 C CNN
+	1    6300 9450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J7
+U 1 1 632E9370
+P 2450 9550
+F 0 "J7" H 2558 9831 50  0000 C CNN
+F 1 "UART2 0" H 2558 9740 50  0000 C CNN
+F 2 "" H 2450 9550 50  0001 C CNN
+F 3 "~" H 2450 9550 50  0001 C CNN
+	1    2450 9550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J9
+U 1 1 632E9C6B
+P 3250 9550
+F 0 "J9" H 3358 9831 50  0000 C CNN
+F 1 "UART2 1" H 3358 9740 50  0000 C CNN
+F 2 "" H 3250 9550 50  0001 C CNN
+F 3 "~" H 3250 9550 50  0001 C CNN
+	1    3250 9550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 632EA398
+P 2650 9650
+F 0 "#PWR0105" H 2650 9400 50  0001 C CNN
+F 1 "GND" H 2655 9477 50  0000 C CNN
+F 2 "" H 2650 9650 50  0001 C CNN
+F 3 "" H 2650 9650 50  0001 C CNN
+	1    2650 9650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 632EBE7A
+P 3450 9650
+F 0 "#PWR0106" H 3450 9400 50  0001 C CNN
+F 1 "GND" H 3455 9477 50  0000 C CNN
+F 2 "" H 3450 9650 50  0001 C CNN
+F 3 "" H 3450 9650 50  0001 C CNN
+	1    3450 9650
+	1    0    0    -1  
+$EndComp
+Text GLabel 2700 9450 2    50   Input ~ 0
+U2_RXD
+Text GLabel 2700 9550 2    50   Input ~ 0
+U2_TXD
+Wire Wire Line
+	2700 9550 2650 9550
+Wire Wire Line
+	2700 9450 2650 9450
+Text GLabel 3500 9450 2    50   Input ~ 0
+U2_RXD
+Text GLabel 3500 9550 2    50   Input ~ 0
+U2_TXD
+Wire Wire Line
+	3500 9550 3450 9550
+Wire Wire Line
+	3500 9450 3450 9450
+Text GLabel 4250 9750 2    50   Input ~ 0
+I2C_SCL
+Text GLabel 4250 9650 2    50   Input ~ 0
+I2C_SDA
+Wire Wire Line
+	4250 9750 4200 9750
+Wire Wire Line
+	4200 9650 4250 9650
+Wire Wire Line
+	4200 9450 4250 9450
+Wire Wire Line
+	4200 9550 4250 9550
+$Comp
+L power:GND #PWR0107
+U 1 1 633A249F
+P 4250 9450
+F 0 "#PWR0107" H 4250 9200 50  0001 C CNN
+F 1 "GND" V 4250 9250 50  0000 C CNN
+F 2 "" H 4250 9450 50  0001 C CNN
+F 3 "" H 4250 9450 50  0001 C CNN
+	1    4250 9450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR0108
+U 1 1 633A2C2C
+P 4250 9550
+F 0 "#PWR0108" H 4250 9400 50  0001 C CNN
+F 1 "+3.3V" V 4250 9750 50  0000 C CNN
+F 2 "" H 4250 9550 50  0001 C CNN
+F 3 "" H 4250 9550 50  0001 C CNN
+	1    4250 9550
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male QWIIC1
+U 1 1 633A41C7
+P 4700 9550
+F 0 "QWIIC1" H 4808 9831 50  0000 C CNN
+F 1 "QWIIC 1" H 4808 9740 50  0000 C CNN
+F 2 "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal" H 4700 9550 50  0001 C CNN
+F 3 "~" H 4700 9550 50  0001 C CNN
+	1    4700 9550
+	1    0    0    -1  
+$EndComp
+Text GLabel 4950 9750 2    50   Input ~ 0
+I2C_SCL
+Text GLabel 4950 9650 2    50   Input ~ 0
+I2C_SDA
+Wire Wire Line
+	4950 9750 4900 9750
+Wire Wire Line
+	4900 9650 4950 9650
+Wire Wire Line
+	4900 9450 4950 9450
+Wire Wire Line
+	4900 9550 4950 9550
+$Comp
+L power:GND #PWR0109
+U 1 1 633A41D3
+P 4950 9450
+F 0 "#PWR0109" H 4950 9200 50  0001 C CNN
+F 1 "GND" V 4950 9250 50  0000 C CNN
+F 2 "" H 4950 9450 50  0001 C CNN
+F 3 "" H 4950 9450 50  0001 C CNN
+	1    4950 9450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR0110
+U 1 1 633A41D9
+P 4950 9550
+F 0 "#PWR0110" H 4950 9400 50  0001 C CNN
+F 1 "+3.3V" V 4950 9750 50  0000 C CNN
+F 2 "" H 4950 9550 50  0001 C CNN
+F 3 "" H 4950 9550 50  0001 C CNN
+	1    4950 9550
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
