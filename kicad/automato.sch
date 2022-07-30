@@ -41,19 +41,6 @@ Wire Wire Line
 	14250 5400 14350 5400
 Wire Wire Line
 	14250 5450 14250 5400
-Wire Wire Line
-	15250 5850 15600 5850
-$Comp
-L Device:Antenna AE1
-U 1 1 602BF430
-P 15600 5650
-F 0 "AE1" H 15680 5639 50  0000 L CNN
-F 1 "Antenna" H 15680 5548 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 15600 5650 50  0001 C CNN
-F 3 "~" H 15600 5650 50  0001 C CNN
-	1    15600 5650
-	1    0    0    -1  
-$EndComp
 Connection ~ 13550 6350
 Wire Wire Line
 	13400 6350 13550 6350
@@ -987,7 +974,7 @@ U 1 1 5FD37C92
 P 7550 6250
 F 0 "J3" H 7658 6731 50  0000 C CNN
 F 1 "Conn_01x07_Male" H 7658 6640 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Horizontal" H 7550 6250 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical" H 7550 6250 50  0001 C CNN
 F 3 "~" H 7550 6250 50  0001 C CNN
 	1    7550 6250
 	1    0    0    -1  
@@ -1815,8 +1802,6 @@ Text GLabel 10450 9800 1    50   Input ~ 0
 VBAT
 Text GLabel 10350 9800 1    50   Input ~ 0
 VBUS
-Text GLabel 4550 950  2    50   Input ~ 0
-VBUS
 Wire Wire Line
 	4550 950  4400 950 
 Wire Wire Line
@@ -2005,9 +1990,6 @@ F 3 " ~" H 16150 5850 50  0001 C CNN
 	1    16150 5850
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	15600 5850 15950 5850
-Connection ~ 15600 5850
 $Comp
 L power:GND #PWR0104
 U 1 1 63249D3B
@@ -2192,5 +2174,18 @@ F 2 "" H 4950 9550 50  0001 C CNN
 F 3 "" H 4950 9550 50  0001 C CNN
 	1    4950 9550
 	0    1    1    0   
+$EndComp
+Wire Wire Line
+	15250 5850 15950 5850
+$Comp
+L power:+3.3V #PWR0111
+U 1 1 635475AD
+P 4550 950
+F 0 "#PWR0111" H 4550 800 50  0001 C CNN
+F 1 "+3.3V" H 4565 1123 50  0000 C CNN
+F 2 "" H 4550 950 50  0001 C CNN
+F 3 "" H 4550 950 50  0001 C CNN
+	1    4550 950 
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
