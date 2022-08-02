@@ -13,18 +13,10 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 9750 9800 1    50   Input ~ 0
+Text GLabel 9650 9800 1    50   Input ~ 0
 A6
-Text GLabel 9850 9800 1    50   Input ~ 0
+Text GLabel 9750 9800 1    50   Input ~ 0
 A7
-Text GLabel 10250 9800 1    50   Input ~ 0
-I2C_SCL
-Text GLabel 10150 9800 1    50   Input ~ 0
-I2C_SDA
-Text GLabel 10050 9800 1    50   Input ~ 0
-TX
-Text GLabel 9950 9800 1    50   Input ~ 0
-RX
 Text GLabel 11400 9650 0    50   Input ~ 0
 SPI_MOSI
 Text GLabel 11400 9750 0    50   Input ~ 0
@@ -817,29 +809,25 @@ Wire Wire Line
 Connection ~ 12300 3600
 Wire Wire Line
 	12300 3600 12400 3600
-Text GLabel 9550 9800 1    50   Input ~ 0
+Text GLabel 9350 9800 1    50   Input ~ 0
 A0
-Text GLabel 9650 9800 1    50   Input ~ 0
+Text GLabel 9450 9800 1    50   Input ~ 0
 A1
-Text GLabel 8850 9800 1    50   Input ~ 0
+Text GLabel 8650 9800 1    50   Input ~ 0
 VBUS
-Text GLabel 8450 9800 1    50   Input ~ 0
+Text GLabel 8350 9800 1    50   Input ~ 0
 VIN
-Text GLabel 8550 9800 1    50   Input ~ 0
-VBAT
 Text GLabel 1250 3550 2    50   Input ~ 0
 GND
 Wire Wire Line
 	1150 3550 1250 3550
-Text GLabel 8350 9800 1    50   Input ~ 0
+Text GLabel 8450 9800 1    50   Input ~ 0
 GND
-Text GLabel 8650 9800 1    50   Input ~ 0
-GND
-Text GLabel 9050 9800 1    50   Input ~ 0
+Text GLabel 8850 9800 1    50   Input ~ 0
 GND
 Text GLabel 9250 9800 1    50   Input ~ 0
-3V3
-Text GLabel 9450 9800 1    50   Input ~ 0
+GND
+Text GLabel 9050 9800 1    50   Input ~ 0
 3V3
 $Comp
 L Device:D_Schottky_Small D1
@@ -1788,20 +1776,16 @@ $EndComp
 Wire Wire Line
 	3800 3550 3800 3600
 $Comp
-L Connector:Screw_Terminal_01x20 J4
+L Connector:Screw_Terminal_01x15 J4
 U 1 1 60071AD4
-P 9350 10000
-F 0 "J4" V 9475 9946 50  0000 C CNN
-F 1 "Screw_Terminal_01x20" V 9566 9946 50  0000 C CNN
-F 2 "automato-sensor:TerminalBlock_Phoenix_PT-1,5-20-3.5-H_1x20_P3.50mm_Horizontal" H 9350 10000 50  0001 C CNN
-F 3 "~" H 9350 10000 50  0001 C CNN
-	1    9350 10000
+P 9050 10000
+F 0 "J4" V 9175 9946 50  0000 C CNN
+F 1 "Screw_Terminal_01x15" V 9266 9946 50  0000 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-15-3.5-H_1x15_P3.50mm_Horizontal" H 9050 10000 50  0001 C CNN
+F 3 "~" H 9050 10000 50  0001 C CNN
+	1    9050 10000
 	0    1    1    0   
 $EndComp
-Text GLabel 10450 9800 1    50   Input ~ 0
-VBAT
-Text GLabel 10350 9800 1    50   Input ~ 0
-VBUS
 Wire Wire Line
 	4550 950  4400 950 
 Wire Wire Line
@@ -1971,13 +1955,13 @@ Wire Wire Line
 	9550 6850 10500 6850
 Wire Wire Line
 	9550 6750 9650 6750
-Text GLabel 9350 9800 1    50   Input ~ 0
-IO16
-Text GLabel 8750 9800 1    50   Input ~ 0
-IO13
-Text GLabel 8950 9800 1    50   Input ~ 0
-IO14
 Text GLabel 9150 9800 1    50   Input ~ 0
+IO16
+Text GLabel 8550 9800 1    50   Input ~ 0
+IO13
+Text GLabel 8750 9800 1    50   Input ~ 0
+IO14
+Text GLabel 8950 9800 1    50   Input ~ 0
 IO15
 $Comp
 L Connector:Conn_Coaxial J6
@@ -2015,34 +1999,12 @@ F 3 "~" H 4000 9550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x02_Male J11
-U 1 1 632B9C4F
-P 5500 9450
-F 0 "J11" H 5608 9631 50  0000 C CNN
-F 1 "1WIRE 0" H 5608 9540 50  0000 C CNN
-F 2 "" H 5500 9450 50  0001 C CNN
-F 3 "~" H 5500 9450 50  0001 C CNN
-	1    5500 9450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x02_Male J12
-U 1 1 632BAE07
-P 6300 9450
-F 0 "J12" H 6408 9631 50  0000 C CNN
-F 1 "1WIRE 1" H 6408 9540 50  0000 C CNN
-F 2 "" H 6300 9450 50  0001 C CNN
-F 3 "~" H 6300 9450 50  0001 C CNN
-	1    6300 9450
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector:Conn_01x03_Male J7
 U 1 1 632E9370
 P 2450 9550
 F 0 "J7" H 2558 9831 50  0000 C CNN
 F 1 "UART2 0" H 2558 9740 50  0000 C CNN
-F 2 "" H 2450 9550 50  0001 C CNN
+F 2 "Connector_JST:JST_PH_S3B-PH-SM4-TB_1x03-1MP_P2.00mm_Horizontal" H 2450 9550 50  0001 C CNN
 F 3 "~" H 2450 9550 50  0001 C CNN
 	1    2450 9550
 	1    0    0    -1  
@@ -2053,7 +2015,7 @@ U 1 1 632E9C6B
 P 3250 9550
 F 0 "J9" H 3358 9831 50  0000 C CNN
 F 1 "UART2 1" H 3358 9740 50  0000 C CNN
-F 2 "" H 3250 9550 50  0001 C CNN
+F 2 "Connector_JST:JST_PH_S3B-PH-SM4-TB_1x03-1MP_P2.00mm_Horizontal" H 3250 9550 50  0001 C CNN
 F 3 "~" H 3250 9550 50  0001 C CNN
 	1    3250 9550
 	1    0    0    -1  
@@ -2188,4 +2150,6 @@ F 3 "" H 4550 950 50  0001 C CNN
 	1    4550 950 
 	1    0    0    -1  
 $EndComp
+Text GLabel 9550 9800 1    50   Input ~ 0
+GND
 $EndSCHEMATC
