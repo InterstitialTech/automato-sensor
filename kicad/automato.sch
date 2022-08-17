@@ -13,9 +13,9 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 9650 9800 1    50   Input ~ 0
+Text GLabel 9550 9800 1    50   Input ~ 0
 A6
-Text GLabel 9750 9800 1    50   Input ~ 0
+Text GLabel 9650 9800 1    50   Input ~ 0
 A7
 Text GLabel 11400 9650 0    50   Input ~ 0
 SPI_MOSI
@@ -645,7 +645,7 @@ F 1 "SW_SPDT" H 15500 2800 50  0000 C CNN
 F 2 "automato-sensor:L102021ML04Q" H 15100 2750 50  0001 C CNN
 F 3 "~" H 15100 2750 50  0001 C CNN
 	1    15100 2750
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	14900 2000 14900 2650
@@ -827,8 +827,6 @@ Text GLabel 8850 9800 1    50   Input ~ 0
 GND
 Text GLabel 9250 9800 1    50   Input ~ 0
 GND
-Text GLabel 9050 9800 1    50   Input ~ 0
-3V3
 $Comp
 L Device:D_Schottky_Small D1
 U 1 1 5FEF1F33
@@ -844,10 +842,6 @@ Wire Wire Line
 	12500 2000 12750 2000
 Wire Wire Line
 	12100 2000 12300 2000
-Text GLabel 15500 2750 2    50   Input ~ 0
-3V3
-Wire Wire Line
-	15400 2750 15500 2750
 Wire Wire Line
 	12600 7750 12700 7750
 Text GLabel 12600 7750 0    50   Input ~ 0
@@ -1760,15 +1754,15 @@ $EndComp
 Wire Wire Line
 	3800 3550 3800 3600
 $Comp
-L Connector:Screw_Terminal_01x15 J4
+L Connector:Screw_Terminal_01x14 J4
 U 1 1 60071AD4
-P 9050 10000
-F 0 "J4" V 9175 9946 50  0000 C CNN
-F 1 "Screw_Terminal_01x15" V 9266 9946 50  0000 C CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-15-3.5-H_1x15_P3.50mm_Horizontal" H 9050 10000 50  0001 C CNN
-F 3 "~" H 9050 10000 50  0001 C CNN
-	1    9050 10000
-	0    1    1    0   
+P 8950 10000
+F 0 "J4" V 9075 9946 50  0000 C CNN
+F 1 "Screw_Terminal_01x14" V 9166 9946 50  0000 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-14-3.5-H_1x14_P3.50mm_Horizontal" H 8950 10000 50  0001 C CNN
+F 3 "~" H 8950 10000 50  0001 C CNN
+	1    8950 10000
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
 	4550 950  4400 950 
@@ -1841,8 +1835,6 @@ Text GLabel 1850 4650 0    50   Input ~ 0
 CS_SD
 Text GLabel 1850 4750 0    50   Input ~ 0
 SPI_MOSI
-Text GLabel 1850 4850 0    50   Input ~ 0
-3v3
 Text GLabel 1850 4950 0    50   Input ~ 0
 SPI_CLK
 Text GLabel 1850 5050 0    50   Input ~ 0
@@ -2059,8 +2051,6 @@ F 3 "" H 4550 950 50  0001 C CNN
 	1    4550 950 
 	1    0    0    -1  
 $EndComp
-Text GLabel 9550 9800 1    50   Input ~ 0
-GND
 $Comp
 L Connector:Conn_01x04_Male J12
 U 1 1 62ECA939
@@ -2180,4 +2170,71 @@ Wire Wire Line
 	2650 9450 2800 9450
 Wire Wire Line
 	3500 9650 3450 9650
+$Comp
+L power:GND #PWR0114
+U 1 1 63277429
+P 1950 9350
+F 0 "#PWR0114" H 1950 9100 50  0001 C CNN
+F 1 "GND" V 1955 9177 50  0000 C CNN
+F 2 "" H 1950 9350 50  0001 C CNN
+F 3 "" H 1950 9350 50  0001 C CNN
+	1    1950 9350
+	0    -1   -1   0   
+$EndComp
+Text GLabel 1950 9650 2    50   Input ~ 0
+RX
+Text GLabel 1950 9550 2    50   Input ~ 0
+TX
+Wire Wire Line
+	1950 9550 1900 9550
+Wire Wire Line
+	1950 9450 1900 9450
+$Comp
+L Connector:Conn_01x04_Male J11
+U 1 1 63277433
+P 1700 9450
+F 0 "J11" H 1808 9731 50  0000 C CNN
+F 1 "UART2" H 1808 9640 50  0000 C CNN
+F 2 "Connector_JST:JST_PH_S4B-PH-SM4-TB_1x04-1MP_P2.00mm_Horizontal" H 1700 9450 50  0001 C CNN
+F 3 "~" H 1700 9450 50  0001 C CNN
+	1    1700 9450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0115
+U 1 1 63277439
+P 1950 9450
+F 0 "#PWR0115" H 1950 9300 50  0001 C CNN
+F 1 "+3.3V" V 1950 9650 50  0000 C CNN
+F 2 "" H 1950 9450 50  0001 C CNN
+F 3 "" H 1950 9450 50  0001 C CNN
+	1    1950 9450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1900 9350 1950 9350
+Wire Wire Line
+	1950 9650 1900 9650
+$Comp
+L power:+3.3V #PWR0116
+U 1 1 632EA34B
+P 9050 9800
+F 0 "#PWR0116" H 9050 9650 50  0001 C CNN
+F 1 "+3.3V" V 9050 10000 50  0000 C CNN
+F 2 "" H 9050 9800 50  0001 C CNN
+F 3 "" H 9050 9800 50  0001 C CNN
+	1    9050 9800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0117
+U 1 1 632EAC68
+P 1850 4850
+F 0 "#PWR0117" H 1850 4700 50  0001 C CNN
+F 1 "+3.3V" V 1850 5100 50  0000 C CNN
+F 2 "" H 1850 4850 50  0001 C CNN
+F 3 "" H 1850 4850 50  0001 C CNN
+	1    1850 4850
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
