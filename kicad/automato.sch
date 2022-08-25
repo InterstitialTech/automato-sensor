@@ -2086,13 +2086,13 @@ U2_RXD
 Text GLabel 9650 5350 2    50   Input ~ 0
 CS_SD
 Text GLabel 9650 5850 2    50   Input ~ 0
-IO16
+IO17
 Text GLabel 9650 5550 2    50   Input ~ 0
-IO13
-Text GLabel 9650 5650 2    50   Input ~ 0
 IO14
-Text GLabel 9650 5750 2    50   Input ~ 0
+Text GLabel 9650 5650 2    50   Input ~ 0
 IO15
+Text GLabel 9650 5750 2    50   Input ~ 0
+IO16
 Text GLabel 9900 5850 2    50   Input ~ 0
 U2_TXD
 Text GLabel 9650 5450 2    50   Input ~ 0
@@ -2526,57 +2526,53 @@ Wire Wire Line
 	19800 6500 19900 6500
 Text GLabel 19900 6500 2    50   Input ~ 0
 CS_EINK
-Text GLabel 19900 6200 2    50   Input ~ 0
+Text GLabel 19900 6750 2    50   Input ~ 0
 RST_EINK
 Wire Wire Line
-	19800 6200 19900 6200
+	19800 6750 19900 6750
 Wire Wire Line
-	19800 6100 19900 6100
-Text GLabel 19900 6100 2    50   Input ~ 0
+	19800 6200 19900 6200
+Text GLabel 19900 6200 2    50   Input ~ 0
 SPI_MOSI
-Text GLabel 19900 6000 2    50   Input ~ 0
+Text GLabel 19900 6100 2    50   Input ~ 0
 I2C_SCL
-Text GLabel 19900 5850 2    50   Input ~ 0
+Text GLabel 19900 6000 2    50   Input ~ 0
 I2C_SDA
 Wire Wire Line
 	19800 5550 20150 5550
 Text GLabel 19900 5550 2    50   Input ~ 0
 IO16
 Wire Wire Line
+	19800 5850 19900 5850
+Wire Wire Line
 	19800 5750 19900 5750
-Wire Wire Line
-	19800 5650 19900 5650
-Text GLabel 19900 5750 2    50   Input ~ 0
+Text GLabel 19900 5850 2    50   Input ~ 0
 SPI_MISO
-Text GLabel 19900 5650 2    50   Input ~ 0
+Text GLabel 19900 5750 2    50   Input ~ 0
 SPI_CLK
-Wire Wire Line
-	19800 5450 20150 5450
 Text GLabel 19900 5350 2    50   Input ~ 0
 IO14
 Text GLabel 19900 5450 2    50   Input ~ 0
 IO15
 Wire Wire Line
 	19800 5350 19900 5350
-Text GLabel 19900 5000 2    50   Input ~ 0
-CS_SD
-Text GLabel 19900 5250 2    50   Input ~ 0
-IO13
 Text GLabel 19900 5150 2    50   Input ~ 0
+CS_SD
+Text GLabel 19900 5650 2    50   Input ~ 0
+IO17
+Text GLabel 19900 5250 2    50   Input ~ 0
 CS_RELAY
 Wire Wire Line
 	19800 5250 19900 5250
 Wire Wire Line
 	19800 5150 19900 5150
 Wire Wire Line
-	19800 5000 19900 5000
-Wire Wire Line
 	19800 4900 19900 4900
 Wire Wire Line
-	19800 6750 19900 6750
+	19800 5000 19900 5000
 Text GLabel 19900 4900 2    50   Input ~ 0
 CS_LORA
-Text GLabel 19900 6750 2    50   Input ~ 0
+Text GLabel 19900 5000 2    50   Input ~ 0
 IRQ_LORA
 Wire Wire Line
 	19800 4750 20500 4750
@@ -2617,26 +2613,26 @@ Connection ~ 18900 7250
 Wire Wire Line
 	18900 7250 18950 7250
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR0122
 U 1 1 6371B3EA
 P 19250 3700
-F 0 "#PWR?" H 19250 3550 50  0001 C CNN
+F 0 "#PWR0122" H 19250 3550 50  0001 C CNN
 F 1 "+3.3V" H 19265 3873 50  0000 C CNN
 F 2 "" H 19250 3700 50  0001 C CNN
 F 3 "" H 19250 3700 50  0001 C CNN
 	1    19250 3700
 	1    0    0    -1  
 $EndComp
-Text GLabel 20150 5550 2    50   Input ~ 0
+Text GLabel 20150 5650 2    50   Input ~ 0
 U2_TXD
-Text GLabel 20150 5450 2    50   Input ~ 0
+Text GLabel 20150 5550 2    50   Input ~ 0
 U2_RXD
 Text GLabel 10800 6850 2    50   Input ~ 0
 IO14
 Wire Wire Line
-	19800 6000 19900 6000
+	19800 6100 19900 6100
 Wire Wire Line
-	19800 5850 19900 5850
+	19800 6000 19900 6000
 $Comp
 L automato-sensor:ESP32-WROOM-DA U8
 U 1 1 630997BE
@@ -2650,4 +2646,8 @@ F 3 "" H 19200 7050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	19250 3700 19250 4500
+Wire Wire Line
+	19800 5450 19900 5450
+Wire Wire Line
+	19800 5650 20150 5650
 $EndSCHEMATC
