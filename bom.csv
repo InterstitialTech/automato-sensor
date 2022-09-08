@@ -14,7 +14,7 @@ Quantity,Manufacturer,Manufacturer Part Number ,Digikey Part Number,Description,
 1,Silicon Labs,CP2104-F03-GM,336-2008-5-ND,USB-UART Bridge,U1
 1,Diodes Incorporated,AP2112K-3.3TRG1,AP2112K-3.3TRG1DICT-ND,3.3V Regulator,U2
 1,RF Solutions,RFM95W-868S2,RFM95W-868S2-ND,LoRa Transceiver Module,U3
-1,Espressif Systems,ESP32-WROOM-DA (4MB),1965-ESP32-WROOM-32D(4MB)CT-ND,ESP32,U8
+1,Espressif Systems,ESP32-WROOM-DA-N4,356-ESP32-WROOM-DAN4 (MOUSER),ESP32,U8
 1,Sensirion AG,SHTC3,1649-1100-1-ND,Temp/Humidity Sensor,U5
 1,Microchip Technology,MCP73831T-2ACI/OT,MCP73831T-2ACI/OTCT-ND,Charge Controller,U6
 1,Monolithic Power Systems Inc.,MP2452DD-LF-Z,1589-1586-1-ND,Buck Regulator,U7
@@ -27,8 +27,10 @@ Quantity,Manufacturer,Manufacturer Part Number ,Digikey Part Number,Description,
 1,Panasonic Electronic Components,ERJ-6ENF3922V,P39.2KCCT-ND,Resistor: 39.2k,R12
 3,Panasonic Electronic Components,ERA-6AED101V,P123792CT-ND,Resistor: 100,"R13, R15, R17"
 1,Panasonic Electronic Components,ERJ-6ENF1243V,P124KCCT-ND,Resistor: 124k,R16
-2,C&K,PTS645SK50SMTR92 LFS,CKN9087CT-ND,Tactile Switch,"SW1, SW2"
+2,C&K,PTS636 SK25J SMTR LFS ,CKN12326-1-ND ,Tactile Switch,"SW1, SW2"
 1,C&K,L102021ML04Q,CKC5102-ND,SPDT Switch,SW3
 2,ON Semiconductor,MMBT2222ALT1G,MMBT2222ALT1GOSCT-ND,Transistor: NPN BJT,"Q1, Q2"
 1,Diodes Incorporated,DMG3415U-7,DMG3415UDICT-ND,P-Channel MOSFET,Q3
 1,Samsung Electro-Mechanics,CIGW252010GL4R7MNE,1276-6935-1-ND,4.7 uH Inductor,L1
+3,Toshiba Semiconductor and Storage,"SSM6N36TU,LF ",SSM6N36TULFCT-ND ,SMALL SIGNAL MOSFET N-CH X 2 VDS,"Q4, Q6, Q7"
+3,Yageo,YC162-JR-0710KL,13-YC162-JR-0710KLCT-ND,RES ARRAY 2 RES 10K OHM 0606,"RN1, RN2, RN3"
