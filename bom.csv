@@ -8,14 +8,13 @@ Quantity,Manufacturer,Manufacturer Part Number ,Digikey Part Number,Description,
 1,Würth Elektronik,150060YS75000,732-4981-1-ND,Yellow LED,D3
 1,Würth Elektronik,150060GS75000,732-4971-1-ND,Green LED,D4
 1,Würth Elektronik,150060RS75000,732-4978-1-ND,Red LED,D5
-1,Amphenol ICC,12401610E4#2A,12401610E4#2ACT-ND,USB-C Receptacle,J1
+2,Amphenol ICC,12401610E4#2A,12401610E4#2ACT-ND,USB-C Receptacle,"J1, J5"
 1,JST Sales America Inc.,B2B-PH-K-S(LF)(SN),455-1704-ND,LiPo Connector,J2
-1,Adam Tech,PH1RB-07-UA,2057-PH1RB-07-UA-ND,1x7 Male Pin Header,J3
 1,Phoenix Contact,1709678,277-8588-ND,20-pos Screw Terminal,J4
 1,Silicon Labs,CP2104-F03-GM,336-2008-5-ND,USB-UART Bridge,U1
 1,Diodes Incorporated,AP2112K-3.3TRG1,AP2112K-3.3TRG1DICT-ND,3.3V Regulator,U2
 1,RF Solutions,RFM95W-868S2,RFM95W-868S2-ND,LoRa Transceiver Module,U3
-1,Espressif Systems,ESP32-WROOM-32D (4MB),1965-ESP32-WROOM-32D(4MB)CT-ND,ESP32,U4
+1,Espressif Systems,ESP32-WROOM-DA (4MB),1965-ESP32-WROOM-32D(4MB)CT-ND,ESP32,U8
 1,Sensirion AG,SHTC3,1649-1100-1-ND,Temp/Humidity Sensor,U5
 1,Microchip Technology,MCP73831T-2ACI/OT,MCP73831T-2ACI/OTCT-ND,Charge Controller,U6
 1,Monolithic Power Systems Inc.,MP2452DD-LF-Z,1589-1586-1-ND,Buck Regulator,U7
@@ -33,6 +32,3 @@ Quantity,Manufacturer,Manufacturer Part Number ,Digikey Part Number,Description,
 2,ON Semiconductor,MMBT2222ALT1G,MMBT2222ALT1GOSCT-ND,Transistor: NPN BJT,"Q1, Q2"
 1,Diodes Incorporated,DMG3415U-7,DMG3415UDICT-ND,P-Channel MOSFET,Q3
 1,Samsung Electro-Mechanics,CIGW252010GL4R7MNE,1276-6935-1-ND,4.7 uH Inductor,L1
-1,N/A,MSP2807,N/A,ILI9341 LCD (2.8 inch),LCD1
-1,Sullins Connector Solutions,PPTC141LFBN-RC,S7012-ND,1x14 Female Pin Header,LCD1
-1,Sullins Connector Solutions,PPTC041LFBN-RC,S7002-ND,1x4 Female Pin Header,LCD1
