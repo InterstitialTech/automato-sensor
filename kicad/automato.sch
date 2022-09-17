@@ -2435,17 +2435,6 @@ Text GLabel 8250 4950 0    50   Input ~ 0
 A0
 Text GLabel 8250 5050 0    50   Input ~ 0
 A1
-$Comp
-L automato-rescue:ESP32-WROOM-32D-RF_Module U4
-U 1 1 5FB06A02
-P 8950 5950
-F 0 "U4" H 8200 4650 50  0000 C CNN
-F 1 "ESP32-WROOM-32D" H 8200 4550 50  0000 C CNN
-F 2 "RF_Module:ESP32-WROOM-32" H 8950 4450 50  0001 C CNN
-F 3 "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf" H 8650 6000 50  0001 C CNN
-	1    8950 5950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	11250 5250 11600 5250
 Wire Wire Line
@@ -2596,10 +2585,10 @@ Wire Wire Line
 Wire Wire Line
 	12900 6300 13000 6300
 $Comp
-L automato-sensor:ESP32-WROOM-DA U8
+L automato-sensor:ESP32-WROOM-DA U4
 U 1 1 630997BE
 P 12450 6650
-F 0 "U8" H 11750 8450 50  0000 C CNN
+F 0 "U4" H 11750 8450 50  0000 C CNN
 F 1 "ESP32-WROOM-DA" H 12550 5850 50  0000 C CNN
 F 2 "automato-sensor:ESP32-WROOM-DA" H 12300 7350 50  0001 C CNN
 F 3 "" H 12300 7350 50  0001 C CNN

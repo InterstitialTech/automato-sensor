@@ -10,7 +10,7 @@ Quantity,Manufacturer,Manufacturer Part Number ,Digikey Part Number,Description,
 1,Würth Elektronik,150060RS75000,732-4978-1-ND,Red LED,D5
 2,Amphenol ICC,12401610E4#2A,12401610E4#2ACT-ND,USB-C Receptacle,"J1, J5"
 1,JST Sales America Inc.,B2B-PH-K-S(LF)(SN),455-1704-ND,LiPo Connector,J2
-1,Phoenix Contact,1709678,277-8588-ND,20-pos Screw Terminal,J4
+1,"On Shore Technology, Inc.",OSTTE140104,  ED2738-ND,14-Pin Screw Terminal,J4
 1,Silicon Labs,CP2104-F03-GM,336-2008-5-ND,USB-UART Bridge,U1
 1,Diodes Incorporated,AP2112K-3.3TRG1,AP2112K-3.3TRG1DICT-ND,3.3V Regulator,U2
 1,RF Solutions,RFM95W-868S2,RFM95W-868S2-ND,LoRa Transceiver Module,U3
@@ -34,3 +34,8 @@ Quantity,Manufacturer,Manufacturer Part Number ,Digikey Part Number,Description,
 1,Samsung Electro-Mechanics,CIGW252010GL4R7MNE,1276-6935-1-ND,4.7 uH Inductor,L1
 3,Toshiba Semiconductor and Storage,"SSM6N36TU,LF ",SSM6N36TULFCT-ND ,SMALL SIGNAL MOSFET N-CH X 2 VDS,"Q4, Q6, Q7"
 3,Yageo,YC162-JR-0710KL,13-YC162-JR-0710KLCT-ND,RES ARRAY 2 RES 10K OHM 0606,"RN1, RN2, RN3"
+2,JST Sales America Inc.,S4B-PH-SM4-TB(LF)(SN),455-1751-1-ND,JST 4pin 2mm pitch,"J9, J12"
+1,JST Sales America Inc.,SM04B-SRSS-TB(LF)(SN),455-1804-1-ND,JST 4pin 1mm pitch,J10
+1,JST Sales America Inc.,S3B-PH-SM4-TB(LF)(SN),455-1750-1-ND,JST 3pin 2mm pitch,J7
+1,,,,SMA right angle edgemount,J6
+1,,,,Microsd card hirose dm3d-sf,J8
