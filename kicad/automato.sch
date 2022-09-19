@@ -1542,13 +1542,11 @@ Wire Wire Line
 	9550 6850 10500 6850
 Wire Wire Line
 	9550 6750 9650 6750
-Text GLabel 10200 9800 1    50   Input ~ 0
+Text GLabel 10000 9800 1    50   Input ~ 0
 IO16
 Text GLabel 9600 9800 1    50   Input ~ 0
-IO13
-Text GLabel 9800 9800 1    50   Input ~ 0
 IO14
-Text GLabel 10000 9800 1    50   Input ~ 0
+Text GLabel 9800 9800 1    50   Input ~ 0
 IO15
 $Comp
 L Connector:Conn_Coaxial J6
@@ -2477,7 +2475,7 @@ Wire Wire Line
 	12900 6800 13000 6800
 Text GLabel 13000 6800 2    50   Input ~ 0
 CS_EINK
-Text GLabel 13000 7050 2    50   Input ~ 0
+Text GLabel 13000 5300 2    50   Input ~ 0
 RST_EINK
 Wire Wire Line
 	12900 7050 13000 7050
@@ -2523,7 +2521,7 @@ Wire Wire Line
 	12900 5300 13000 5300
 Text GLabel 13000 5200 2    50   Input ~ 0
 CS_LORA
-Text GLabel 13000 5300 2    50   Input ~ 0
+Text GLabel 13000 7050 2    50   Input ~ 0
 IRQ_LORA
 Wire Wire Line
 	12900 5050 13600 5050
@@ -2601,4 +2599,94 @@ Wire Wire Line
 	12900 5750 13000 5750
 Wire Wire Line
 	12900 5950 13250 5950
+Text GLabel 10200 9800 1    50   Input ~ 0
+IO17
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 63315064
+P 15700 8850
+F 0 "H?" H 15800 8899 50  0000 L CNN
+F 1 "MountingHole_Pad" H 15800 8808 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom" H 15700 8850 50  0001 C CNN
+F 3 "~" H 15700 8850 50  0001 C CNN
+	1    15700 8850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 63315EC1
+P 15700 8950
+F 0 "#PWR?" H 15700 8700 50  0001 C CNN
+F 1 "GND" H 15705 8777 50  0000 C CNN
+F 2 "" H 15700 8950 50  0001 C CNN
+F 3 "" H 15700 8950 50  0001 C CNN
+	1    15700 8950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 63316F8B
+P 14800 8850
+F 0 "H?" H 14900 8899 50  0000 L CNN
+F 1 "MountingHole_Pad" H 14900 8808 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom" H 14800 8850 50  0001 C CNN
+F 3 "~" H 14800 8850 50  0001 C CNN
+	1    14800 8850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 63316F91
+P 14800 8950
+F 0 "#PWR?" H 14800 8700 50  0001 C CNN
+F 1 "GND" H 14805 8777 50  0000 C CNN
+F 2 "" H 14800 8950 50  0001 C CNN
+F 3 "" H 14800 8950 50  0001 C CNN
+	1    14800 8950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 63338870
+P 13950 8850
+F 0 "H?" H 14050 8899 50  0000 L CNN
+F 1 "MountingHole_Pad" H 14050 8808 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom" H 13950 8850 50  0001 C CNN
+F 3 "~" H 13950 8850 50  0001 C CNN
+	1    13950 8850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 63338876
+P 13950 8950
+F 0 "#PWR?" H 13950 8700 50  0001 C CNN
+F 1 "GND" H 13955 8777 50  0000 C CNN
+F 2 "" H 13950 8950 50  0001 C CNN
+F 3 "" H 13950 8950 50  0001 C CNN
+	1    13950 8950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 63359F55
+P 15650 8350
+F 0 "H?" H 15750 8399 50  0000 L CNN
+F 1 "MountingHole_Pad" H 15750 8308 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom" H 15650 8350 50  0001 C CNN
+F 3 "~" H 15650 8350 50  0001 C CNN
+	1    15650 8350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 63359F5B
+P 15650 8450
+F 0 "#PWR?" H 15650 8200 50  0001 C CNN
+F 1 "GND" H 15655 8277 50  0000 C CNN
+F 2 "" H 15650 8450 50  0001 C CNN
+F 3 "" H 15650 8450 50  0001 C CNN
+	1    15650 8450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
