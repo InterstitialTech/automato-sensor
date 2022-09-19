@@ -5,9 +5,9 @@ Quantity,Manufacturer,Manufacturer Part Number ,Digikey Part Number,Description,
 7,Samsung Electro-Mechanics,CL21A106MQFNNNE,1276-1298-1-ND,10 uF Capacitor,"C4, C5, C9, C11, C12, C15, C16"
 1,Samsung Electro-Mechanics,CL21C100CBANNNC,1276-2561-1-ND,10 pF Capacitor,C14
 2,Comchip Technology,SS24-HF,641-SS24-HFCT-ND,Schottky Diode,"D1, D2"
-1,Würth Elektronik,150060YS75000,732-4981-1-ND,Yellow LED,D3
-1,Würth Elektronik,150060GS75000,732-4971-1-ND,Green LED,D4
-1,Würth Elektronik,150060RS75000,732-4978-1-ND,Red LED,D5
+1,Wurth Elektronik,150060YS75000,732-4981-1-ND,Yellow LED,D3
+1,Wurth Elektronik,150060GS75000,732-4971-1-ND,Green LED,D4
+1,Wurth Elektronik,150060RS75000,732-4978-1-ND,Red LED,D5
 2,Amphenol ICC,12401610E4#2A,12401610E4#2ACT-ND,USB-C Receptacle,"J1, J5"
 1,JST Sales America Inc.,B2B-PH-K-S(LF)(SN),455-1704-ND,LiPo Connector,J2
 1,"On Shore Technology, Inc.",OSTTE140104,  ED2738-ND,14-Pin Screw Terminal,J4
@@ -37,5 +37,5 @@ Quantity,Manufacturer,Manufacturer Part Number ,Digikey Part Number,Description,
 2,JST Sales America Inc.,S4B-PH-SM4-TB(LF)(SN),455-1751-1-ND,JST 4pin 2mm pitch,"J9, J12"
 1,JST Sales America Inc.,SM04B-SRSS-TB(LF)(SN),455-1804-1-ND,JST 4pin 1mm pitch,J10
 1,JST Sales America Inc.,S3B-PH-SM4-TB(LF)(SN),455-1750-1-ND,JST 3pin 2mm pitch,J7
-1,,,,SMA right angle edgemount,J6
-1,,,,Microsd card hirose dm3d-sf,J8
+1,Adam Tech,RF2-143-T-17-50-G,2057-RF2-143-T-17-50-G-ND,SMA right angle edgemount,J6
+1,GCT,MEM2051-00-195-00-A ,2073-MEM2051-00-195-00-ACT-ND,Microsd card hirose dm3d-sf,J8
