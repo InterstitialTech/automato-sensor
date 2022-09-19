@@ -1401,7 +1401,7 @@ U 1 1 62CCFC39
 P 2950 4950
 F 0 "J8" H 2900 5767 50  0000 C CNN
 F 1 "Micro_SD_Card_Det" H 2900 5676 50  0000 C CNN
-F 2 "Connector_Card:microSD_HC_Hirose_DM3D-SF" H 5000 5650 50  0001 C CNN
+F 2 "automato-sensor:MEM2051-00-195-00-A" H 5000 5650 50  0001 C CNN
 F 3 "https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&item_id=195&is_series=1" H 2950 5050 50  0001 C CNN
 	1    2950 4950
 	1    0    0    -1  
@@ -2602,10 +2602,10 @@ Wire Wire Line
 Text GLabel 10200 9800 1    50   Input ~ 0
 IO17
 $Comp
-L Mechanical:MountingHole_Pad H?
+L Mechanical:MountingHole_Pad H4
 U 1 1 63315064
 P 15700 8850
-F 0 "H?" H 15800 8899 50  0000 L CNN
+F 0 "H4" H 15800 8899 50  0000 L CNN
 F 1 "MountingHole_Pad" H 15800 8808 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom" H 15700 8850 50  0001 C CNN
 F 3 "~" H 15700 8850 50  0001 C CNN
@@ -2613,10 +2613,10 @@ F 3 "~" H 15700 8850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0123
 U 1 1 63315EC1
 P 15700 8950
-F 0 "#PWR?" H 15700 8700 50  0001 C CNN
+F 0 "#PWR0123" H 15700 8700 50  0001 C CNN
 F 1 "GND" H 15705 8777 50  0000 C CNN
 F 2 "" H 15700 8950 50  0001 C CNN
 F 3 "" H 15700 8950 50  0001 C CNN
@@ -2624,10 +2624,10 @@ F 3 "" H 15700 8950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H?
+L Mechanical:MountingHole_Pad H2
 U 1 1 63316F8B
 P 14800 8850
-F 0 "H?" H 14900 8899 50  0000 L CNN
+F 0 "H2" H 14900 8899 50  0000 L CNN
 F 1 "MountingHole_Pad" H 14900 8808 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom" H 14800 8850 50  0001 C CNN
 F 3 "~" H 14800 8850 50  0001 C CNN
@@ -2635,10 +2635,10 @@ F 3 "~" H 14800 8850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0124
 U 1 1 63316F91
 P 14800 8950
-F 0 "#PWR?" H 14800 8700 50  0001 C CNN
+F 0 "#PWR0124" H 14800 8700 50  0001 C CNN
 F 1 "GND" H 14805 8777 50  0000 C CNN
 F 2 "" H 14800 8950 50  0001 C CNN
 F 3 "" H 14800 8950 50  0001 C CNN
@@ -2646,10 +2646,10 @@ F 3 "" H 14800 8950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H?
+L Mechanical:MountingHole_Pad H1
 U 1 1 63338870
 P 13950 8850
-F 0 "H?" H 14050 8899 50  0000 L CNN
+F 0 "H1" H 14050 8899 50  0000 L CNN
 F 1 "MountingHole_Pad" H 14050 8808 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom" H 13950 8850 50  0001 C CNN
 F 3 "~" H 13950 8850 50  0001 C CNN
@@ -2657,10 +2657,10 @@ F 3 "~" H 13950 8850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0125
 U 1 1 63338876
 P 13950 8950
-F 0 "#PWR?" H 13950 8700 50  0001 C CNN
+F 0 "#PWR0125" H 13950 8700 50  0001 C CNN
 F 1 "GND" H 13955 8777 50  0000 C CNN
 F 2 "" H 13950 8950 50  0001 C CNN
 F 3 "" H 13950 8950 50  0001 C CNN
@@ -2668,10 +2668,10 @@ F 3 "" H 13950 8950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H?
+L Mechanical:MountingHole_Pad H3
 U 1 1 63359F55
 P 15650 8350
-F 0 "H?" H 15750 8399 50  0000 L CNN
+F 0 "H3" H 15750 8399 50  0000 L CNN
 F 1 "MountingHole_Pad" H 15750 8308 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom" H 15650 8350 50  0001 C CNN
 F 3 "~" H 15650 8350 50  0001 C CNN
@@ -2679,10 +2679,10 @@ F 3 "~" H 15650 8350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0126
 U 1 1 63359F5B
 P 15650 8450
-F 0 "#PWR?" H 15650 8200 50  0001 C CNN
+F 0 "#PWR0126" H 15650 8200 50  0001 C CNN
 F 1 "GND" H 15655 8277 50  0000 C CNN
 F 2 "" H 15650 8450 50  0001 C CNN
 F 3 "" H 15650 8450 50  0001 C CNN
